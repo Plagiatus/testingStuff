@@ -5,15 +5,15 @@ on:
     - cron: "0 6 * * 6" # every saturday at 6am
   workflow_dispatch:
     inputs: 
-      ignore_update_check: 
+      - ignore_update_check: 
         description: "Ignore update check?"
-        required: true,
-        default: true,
+        required: true
+        default: true
         type: boolean
-      override_version: 
+      - override_version: 
         description: "Override version to check"
-        required: false,
-        default: "",
+        required: false
+        default: ""
         type: string
 
 jobs:
