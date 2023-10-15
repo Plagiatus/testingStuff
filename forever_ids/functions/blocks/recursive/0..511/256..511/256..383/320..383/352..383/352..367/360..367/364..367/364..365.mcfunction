@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 364 run data modify storage forever_ids:output result set value "minecraft:fletching_table"
+execute if score #id forever_ids.tmp matches 365 run data modify storage forever_ids:output result set value "minecraft:flower_pot"

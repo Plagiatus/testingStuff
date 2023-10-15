@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 728 run data modify storage forever_ids:output result set value "minecraft:prismarine_wall"
+execute if score #id forever_ids.tmp matches 729 run data modify storage forever_ids:output result set value "minecraft:pumpkin"

@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 402 run data modify storage forever_ids:output result set value "minecraft:dune_armor_trim_smithing_template"
+execute if score #id forever_ids.tmp matches 403 run data modify storage forever_ids:output result set value "minecraft:echo_shard"

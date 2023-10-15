@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 636 run data modify storage forever_ids:output result set value "minecraft:pink_bed"
+execute if score #id forever_ids.tmp matches 637 run data modify storage forever_ids:output result set value "minecraft:pink_candle"

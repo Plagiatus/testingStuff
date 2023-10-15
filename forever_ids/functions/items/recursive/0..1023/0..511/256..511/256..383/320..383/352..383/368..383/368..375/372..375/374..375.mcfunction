@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 374 run data modify storage forever_ids:output result set value "minecraft:diamond_boots"
+execute if score #id forever_ids.tmp matches 375 run data modify storage forever_ids:output result set value "minecraft:diamond_chestplate"

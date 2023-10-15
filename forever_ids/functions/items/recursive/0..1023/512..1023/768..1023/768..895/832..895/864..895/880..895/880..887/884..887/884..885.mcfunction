@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 884 run data modify storage forever_ids:output result set value "minecraft:potato"
+execute if score #id forever_ids.tmp matches 885 run data modify storage forever_ids:output result set value "minecraft:potion"

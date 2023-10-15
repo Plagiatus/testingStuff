@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 438 run data modify storage forever_ids:output result set value "minecraft:fern"
+execute if score #id forever_ids.tmp matches 439 run data modify storage forever_ids:output result set value "minecraft:filled_map"

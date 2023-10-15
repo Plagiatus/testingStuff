@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 550 run data modify storage forever_ids:output result set value "minecraft:mangrove_wall_sign"
+execute if score #id forever_ids.tmp matches 551 run data modify storage forever_ids:output result set value "minecraft:mangrove_wood"

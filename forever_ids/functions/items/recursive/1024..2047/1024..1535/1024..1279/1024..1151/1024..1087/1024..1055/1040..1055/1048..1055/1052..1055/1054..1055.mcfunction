@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 1054 run data modify storage forever_ids:output result set value "minecraft:splash_potion"
+execute if score #id forever_ids.tmp matches 1055 run data modify storage forever_ids:output result set value "minecraft:sponge"

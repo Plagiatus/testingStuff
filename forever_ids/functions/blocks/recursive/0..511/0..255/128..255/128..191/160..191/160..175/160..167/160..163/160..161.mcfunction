@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 160 run data modify storage forever_ids:output result set value "minecraft:cave_vines"
+execute if score #id forever_ids.tmp matches 161 run data modify storage forever_ids:output result set value "minecraft:cave_vines_plant"

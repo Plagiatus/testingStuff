@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 1138 run data modify storage forever_ids:output result set value "minecraft:torchflower_seeds"
+execute if score #id forever_ids.tmp matches 1139 run data modify storage forever_ids:output result set value "minecraft:totem_of_undying"

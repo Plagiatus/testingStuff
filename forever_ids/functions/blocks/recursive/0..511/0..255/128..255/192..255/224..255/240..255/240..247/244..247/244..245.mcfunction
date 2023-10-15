@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 244 run data modify storage forever_ids:output result set value "minecraft:cut_red_sandstone"
+execute if score #id forever_ids.tmp matches 245 run data modify storage forever_ids:output result set value "minecraft:cut_red_sandstone_slab"

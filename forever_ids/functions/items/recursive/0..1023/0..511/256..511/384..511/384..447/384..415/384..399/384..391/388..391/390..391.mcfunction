@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 390 run data modify storage forever_ids:output result set value "minecraft:disc_fragment_5"
+execute if score #id forever_ids.tmp matches 391 run data modify storage forever_ids:output result set value "minecraft:dispenser"

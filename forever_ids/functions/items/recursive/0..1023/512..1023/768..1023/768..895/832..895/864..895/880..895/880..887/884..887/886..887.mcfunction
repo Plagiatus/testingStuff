@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 886 run data modify storage forever_ids:output result set value "minecraft:powder_snow_bucket"
+execute if score #id forever_ids.tmp matches 887 run data modify storage forever_ids:output result set value "minecraft:powered_rail"

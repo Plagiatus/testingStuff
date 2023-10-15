@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 450 run data modify storage forever_ids:output result set value "minecraft:flower_banner_pattern"
+execute if score #id forever_ids.tmp matches 451 run data modify storage forever_ids:output result set value "minecraft:flower_pot"

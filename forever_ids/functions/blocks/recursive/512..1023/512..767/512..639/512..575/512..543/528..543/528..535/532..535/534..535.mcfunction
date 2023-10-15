@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 534 run data modify storage forever_ids:output result set value "minecraft:mangrove_button"
+execute if score #id forever_ids.tmp matches 535 run data modify storage forever_ids:output result set value "minecraft:mangrove_door"

@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 1116 run data modify storage forever_ids:output result set value "minecraft:stripped_warped_stem"
+execute if score #id forever_ids.tmp matches 1117 run data modify storage forever_ids:output result set value "minecraft:structure_block"

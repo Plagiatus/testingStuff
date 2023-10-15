@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 130 run data modify storage forever_ids:output result set value "minecraft:bone_block"
+execute if score #id forever_ids.tmp matches 131 run data modify storage forever_ids:output result set value "minecraft:bone_meal"

@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 306 run data modify storage forever_ids:output result set value "minecraft:decorated_pot"
+execute if score #id forever_ids.tmp matches 307 run data modify storage forever_ids:output result set value "minecraft:deepslate"

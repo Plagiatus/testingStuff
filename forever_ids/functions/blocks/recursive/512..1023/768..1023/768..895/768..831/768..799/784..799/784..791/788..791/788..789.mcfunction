@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 788 run data modify storage forever_ids:output result set value "minecraft:redstone_wall_torch"
+execute if score #id forever_ids.tmp matches 789 run data modify storage forever_ids:output result set value "minecraft:redstone_wire"

@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 572 run data modify storage forever_ids:output result set value "minecraft:mushroom_stem"
+execute if score #id forever_ids.tmp matches 573 run data modify storage forever_ids:output result set value "minecraft:mycelium"

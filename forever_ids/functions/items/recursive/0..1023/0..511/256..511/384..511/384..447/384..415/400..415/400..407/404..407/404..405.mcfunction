@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 404 run data modify storage forever_ids:output result set value "minecraft:egg"
+execute if score #id forever_ids.tmp matches 405 run data modify storage forever_ids:output result set value "minecraft:elder_guardian_spawn_egg"

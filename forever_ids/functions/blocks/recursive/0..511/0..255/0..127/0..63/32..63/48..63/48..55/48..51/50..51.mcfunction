@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 50 run data modify storage forever_ids:output result set value "minecraft:bamboo_wall_hanging_sign"
+execute if score #id forever_ids.tmp matches 51 run data modify storage forever_ids:output result set value "minecraft:bamboo_wall_sign"

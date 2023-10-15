@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 120 run data modify storage forever_ids:output result set value "minecraft:brain_coral_wall_fan"
+execute if score #id forever_ids.tmp matches 121 run data modify storage forever_ids:output result set value "minecraft:brewing_stand"

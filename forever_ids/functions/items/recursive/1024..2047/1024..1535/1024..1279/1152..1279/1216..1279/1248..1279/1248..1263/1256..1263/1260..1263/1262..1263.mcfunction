@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 1262 run data modify storage forever_ids:output result set value "minecraft:explorer_pottery_shard"
+execute if score #id forever_ids.tmp matches 1263 run data modify storage forever_ids:output result set value "minecraft:friend_pottery_shard"

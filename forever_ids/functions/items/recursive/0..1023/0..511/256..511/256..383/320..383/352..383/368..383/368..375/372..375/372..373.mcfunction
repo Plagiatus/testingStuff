@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 372 run data modify storage forever_ids:output result set value "minecraft:diamond_axe"
+execute if score #id forever_ids.tmp matches 373 run data modify storage forever_ids:output result set value "minecraft:diamond_block"

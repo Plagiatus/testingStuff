@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 76 run data modify storage forever_ids:output result set value "minecraft:birch_button"
+execute if score #id forever_ids.tmp matches 77 run data modify storage forever_ids:output result set value "minecraft:birch_chest_boat"

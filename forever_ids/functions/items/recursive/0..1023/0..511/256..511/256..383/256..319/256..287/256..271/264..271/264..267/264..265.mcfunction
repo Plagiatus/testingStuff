@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 264 run data modify storage forever_ids:output result set value "minecraft:cracked_deepslate_bricks"
+execute if score #id forever_ids.tmp matches 265 run data modify storage forever_ids:output result set value "minecraft:cracked_deepslate_tiles"

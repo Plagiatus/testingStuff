@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 610 run data modify storage forever_ids:output result set value "minecraft:leather_chestplate"
+execute if score #id forever_ids.tmp matches 611 run data modify storage forever_ids:output result set value "minecraft:leather_helmet"

@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 144 run data modify storage forever_ids:output result set value "minecraft:brick_stairs"
+execute if score #id forever_ids.tmp matches 145 run data modify storage forever_ids:output result set value "minecraft:brick_wall"

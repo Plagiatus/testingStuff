@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 982 run data modify storage forever_ids:output result set value "minecraft:salmon_bucket"
+execute if score #id forever_ids.tmp matches 983 run data modify storage forever_ids:output result set value "minecraft:salmon_spawn_egg"

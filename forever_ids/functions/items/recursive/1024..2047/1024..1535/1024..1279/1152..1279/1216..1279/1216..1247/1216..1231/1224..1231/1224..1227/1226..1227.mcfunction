@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 1226 run data modify storage forever_ids:output result set value "minecraft:wither_skeleton_spawn_egg"
+execute if score #id forever_ids.tmp matches 1227 run data modify storage forever_ids:output result set value "minecraft:wither_spawn_egg"

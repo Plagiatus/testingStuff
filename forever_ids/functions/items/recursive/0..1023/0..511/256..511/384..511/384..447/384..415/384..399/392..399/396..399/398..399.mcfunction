@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 398 run data modify storage forever_ids:output result set value "minecraft:dried_kelp_block"
+execute if score #id forever_ids.tmp matches 399 run data modify storage forever_ids:output result set value "minecraft:dripstone_block"

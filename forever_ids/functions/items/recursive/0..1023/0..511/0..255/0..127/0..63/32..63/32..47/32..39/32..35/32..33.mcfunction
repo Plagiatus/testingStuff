@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 32 run data modify storage forever_ids:output result set value "minecraft:archer_pottery_sherd"
+execute if score #id forever_ids.tmp matches 33 run data modify storage forever_ids:output result set value "minecraft:armor_stand"

@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 462 run data modify storage forever_ids:output result set value "minecraft:lapis_ore"
+execute if score #id forever_ids.tmp matches 463 run data modify storage forever_ids:output result set value "minecraft:large_amethyst_bud"

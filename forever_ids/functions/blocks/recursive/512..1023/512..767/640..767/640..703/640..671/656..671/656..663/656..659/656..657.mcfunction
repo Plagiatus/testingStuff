@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 656 run data modify storage forever_ids:output result set value "minecraft:player_wall_head"
+execute if score #id forever_ids.tmp matches 657 run data modify storage forever_ids:output result set value "minecraft:podzol"

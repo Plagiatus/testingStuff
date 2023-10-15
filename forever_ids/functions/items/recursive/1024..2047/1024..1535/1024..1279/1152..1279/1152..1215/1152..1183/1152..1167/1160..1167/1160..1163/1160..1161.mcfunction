@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 1160 run data modify storage forever_ids:output result set value "minecraft:vine"
+execute if score #id forever_ids.tmp matches 1161 run data modify storage forever_ids:output result set value "minecraft:wandering_trader_spawn_egg"

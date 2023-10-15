@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 328 run data modify storage forever_ids:output result set value "minecraft:dark_oak_stairs"
+execute if score #id forever_ids.tmp matches 329 run data modify storage forever_ids:output result set value "minecraft:dark_oak_trapdoor"

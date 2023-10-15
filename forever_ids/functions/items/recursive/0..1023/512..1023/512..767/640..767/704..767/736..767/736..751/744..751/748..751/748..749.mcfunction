@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 748 run data modify storage forever_ids:output result set value "minecraft:nautilus_shell"
+execute if score #id forever_ids.tmp matches 749 run data modify storage forever_ids:output result set value "minecraft:nether_brick"

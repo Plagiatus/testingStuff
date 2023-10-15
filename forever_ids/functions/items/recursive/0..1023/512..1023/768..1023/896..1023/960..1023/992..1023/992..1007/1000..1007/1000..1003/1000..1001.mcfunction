@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 1000 run data modify storage forever_ids:output result set value "minecraft:shaper_armor_trim_smithing_template"
+execute if score #id forever_ids.tmp matches 1001 run data modify storage forever_ids:output result set value "minecraft:sheaf_pottery_sherd"

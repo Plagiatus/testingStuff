@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 1222 run data modify storage forever_ids:output result set value "minecraft:wild_armor_trim_smithing_template"
+execute if score #id forever_ids.tmp matches 1223 run data modify storage forever_ids:output result set value "minecraft:witch_spawn_egg"

@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 72 run data modify storage forever_ids:output result set value "minecraft:beetroot_soup"
+execute if score #id forever_ids.tmp matches 73 run data modify storage forever_ids:output result set value "minecraft:bell"

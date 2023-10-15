@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 614 run data modify storage forever_ids:output result set value "minecraft:lectern"
+execute if score #id forever_ids.tmp matches 615 run data modify storage forever_ids:output result set value "minecraft:lever"

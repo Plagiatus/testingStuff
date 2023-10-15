@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 62 run data modify storage forever_ids:output result set value "minecraft:big_dripleaf_stem"
+execute if score #id forever_ids.tmp matches 63 run data modify storage forever_ids:output result set value "minecraft:birch_button"

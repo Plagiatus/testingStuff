@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 804 run data modify storage forever_ids:output result set value "minecraft:orange_glazed_terracotta"
+execute if score #id forever_ids.tmp matches 805 run data modify storage forever_ids:output result set value "minecraft:orange_shulker_box"

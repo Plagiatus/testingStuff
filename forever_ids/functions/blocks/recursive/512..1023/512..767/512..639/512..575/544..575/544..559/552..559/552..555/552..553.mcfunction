@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 552 run data modify storage forever_ids:output result set value "minecraft:medium_amethyst_bud"
+execute if score #id forever_ids.tmp matches 553 run data modify storage forever_ids:output result set value "minecraft:melon"

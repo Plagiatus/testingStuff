@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 1036 run data modify storage forever_ids:output result set value "minecraft:sniffer_egg"
+execute if score #id forever_ids.tmp matches 1037 run data modify storage forever_ids:output result set value "minecraft:sniffer_spawn_egg"

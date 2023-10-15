@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 532 run data modify storage forever_ids:output result set value "minecraft:magenta_wool"
+execute if score #id forever_ids.tmp matches 533 run data modify storage forever_ids:output result set value "minecraft:magma_block"

@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 296 run data modify storage forever_ids:output result set value "minecraft:dead_fire_coral_fan"
+execute if score #id forever_ids.tmp matches 297 run data modify storage forever_ids:output result set value "minecraft:dead_fire_coral_wall_fan"

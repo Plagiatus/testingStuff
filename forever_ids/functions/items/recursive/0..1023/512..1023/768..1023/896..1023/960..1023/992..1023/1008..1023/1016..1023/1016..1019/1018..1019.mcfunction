@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 1018 run data modify storage forever_ids:output result set value "minecraft:slime_block"
+execute if score #id forever_ids.tmp matches 1019 run data modify storage forever_ids:output result set value "minecraft:slime_spawn_egg"

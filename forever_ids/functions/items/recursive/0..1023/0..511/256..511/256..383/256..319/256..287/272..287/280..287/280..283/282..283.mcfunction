@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 282 run data modify storage forever_ids:output result set value "minecraft:crimson_pressure_plate"
+execute if score #id forever_ids.tmp matches 283 run data modify storage forever_ids:output result set value "minecraft:crimson_roots"

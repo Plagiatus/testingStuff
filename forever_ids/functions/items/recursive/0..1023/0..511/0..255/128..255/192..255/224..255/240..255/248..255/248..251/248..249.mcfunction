@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 248 run data modify storage forever_ids:output result set value "minecraft:compass"
+execute if score #id forever_ids.tmp matches 249 run data modify storage forever_ids:output result set value "minecraft:composter"

@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 992 run data modify storage forever_ids:output result set value "minecraft:sculk_sensor"
+execute if score #id forever_ids.tmp matches 993 run data modify storage forever_ids:output result set value "minecraft:sculk_shrieker"

@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 312 run data modify storage forever_ids:output result set value "minecraft:dandelion"
+execute if score #id forever_ids.tmp matches 313 run data modify storage forever_ids:output result set value "minecraft:danger_pottery_sherd"

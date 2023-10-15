@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 782 run data modify storage forever_ids:output result set value "minecraft:oak_hanging_sign"
+execute if score #id forever_ids.tmp matches 783 run data modify storage forever_ids:output result set value "minecraft:oak_leaves"

@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 648 run data modify storage forever_ids:output result set value "minecraft:lime_banner"
+execute if score #id forever_ids.tmp matches 649 run data modify storage forever_ids:output result set value "minecraft:lime_bed"

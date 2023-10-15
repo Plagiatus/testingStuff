@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 468 run data modify storage forever_ids:output result set value "minecraft:glow_berries"
+execute if score #id forever_ids.tmp matches 469 run data modify storage forever_ids:output result set value "minecraft:glow_ink_sac"

@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 902 run data modify storage forever_ids:output result set value "minecraft:pumpkin_pie"
+execute if score #id forever_ids.tmp matches 903 run data modify storage forever_ids:output result set value "minecraft:pumpkin_seeds"

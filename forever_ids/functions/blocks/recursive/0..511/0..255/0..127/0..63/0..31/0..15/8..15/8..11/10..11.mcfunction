@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 10 run data modify storage forever_ids:output result set value "minecraft:acacia_sapling"
+execute if score #id forever_ids.tmp matches 11 run data modify storage forever_ids:output result set value "minecraft:acacia_sign"

@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 974 run data modify storage forever_ids:output result set value "minecraft:white_concrete"
+execute if score #id forever_ids.tmp matches 975 run data modify storage forever_ids:output result set value "minecraft:white_concrete_powder"

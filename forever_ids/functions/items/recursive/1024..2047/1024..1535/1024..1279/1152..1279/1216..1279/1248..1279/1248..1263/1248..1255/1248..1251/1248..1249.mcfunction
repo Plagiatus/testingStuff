@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 1248 run data modify storage forever_ids:output result set value "minecraft:yellow_wool"
+execute if score #id forever_ids.tmp matches 1249 run data modify storage forever_ids:output result set value "minecraft:zoglin_spawn_egg"

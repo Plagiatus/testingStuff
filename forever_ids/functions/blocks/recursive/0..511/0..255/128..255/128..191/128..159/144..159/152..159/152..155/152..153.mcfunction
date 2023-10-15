@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 152 run data modify storage forever_ids:output result set value "minecraft:campfire"
+execute if score #id forever_ids.tmp matches 153 run data modify storage forever_ids:output result set value "minecraft:candle"

@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 1202 run data modify storage forever_ids:output result set value "minecraft:weathered_cut_copper_slab"
+execute if score #id forever_ids.tmp matches 1203 run data modify storage forever_ids:output result set value "minecraft:weathered_cut_copper_stairs"

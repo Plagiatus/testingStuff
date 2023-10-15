@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 288 run data modify storage forever_ids:output result set value "minecraft:crimson_trapdoor"
+execute if score #id forever_ids.tmp matches 289 run data modify storage forever_ids:output result set value "minecraft:crossbow"

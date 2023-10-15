@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 334 run data modify storage forever_ids:output result set value "minecraft:daylight_detector"
+execute if score #id forever_ids.tmp matches 335 run data modify storage forever_ids:output result set value "minecraft:dead_brain_coral"

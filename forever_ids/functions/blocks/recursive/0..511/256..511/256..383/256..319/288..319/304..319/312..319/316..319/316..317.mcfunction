@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 316 run data modify storage forever_ids:output result set value "minecraft:deepslate_gold_ore"
+execute if score #id forever_ids.tmp matches 317 run data modify storage forever_ids:output result set value "minecraft:deepslate_iron_ore"

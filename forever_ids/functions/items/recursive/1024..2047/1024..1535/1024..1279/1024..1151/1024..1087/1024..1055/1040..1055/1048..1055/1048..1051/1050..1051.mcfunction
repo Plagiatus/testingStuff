@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 1050 run data modify storage forever_ids:output result set value "minecraft:spectral_arrow"
+execute if score #id forever_ids.tmp matches 1051 run data modify storage forever_ids:output result set value "minecraft:spider_eye"

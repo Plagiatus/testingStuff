@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 534 run data modify storage forever_ids:output result set value "minecraft:heavy_weighted_pressure_plate"
+execute if score #id forever_ids.tmp matches 535 run data modify storage forever_ids:output result set value "minecraft:hoglin_spawn_egg"

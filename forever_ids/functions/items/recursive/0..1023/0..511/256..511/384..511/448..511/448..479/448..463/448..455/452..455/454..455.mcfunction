@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 454 run data modify storage forever_ids:output result set value "minecraft:fox_spawn_egg"
+execute if score #id forever_ids.tmp matches 455 run data modify storage forever_ids:output result set value "minecraft:friend_pottery_sherd"

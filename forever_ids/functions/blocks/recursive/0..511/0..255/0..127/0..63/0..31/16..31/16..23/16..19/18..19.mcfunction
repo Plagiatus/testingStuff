@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 18 run data modify storage forever_ids:output result set value "minecraft:activator_rail"
+execute if score #id forever_ids.tmp matches 19 run data modify storage forever_ids:output result set value "minecraft:allium"

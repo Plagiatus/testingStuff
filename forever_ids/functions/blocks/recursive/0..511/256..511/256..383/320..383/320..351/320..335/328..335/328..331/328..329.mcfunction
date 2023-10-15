@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 328 run data modify storage forever_ids:output result set value "minecraft:diorite_slab"
+execute if score #id forever_ids.tmp matches 329 run data modify storage forever_ids:output result set value "minecraft:diorite_stairs"

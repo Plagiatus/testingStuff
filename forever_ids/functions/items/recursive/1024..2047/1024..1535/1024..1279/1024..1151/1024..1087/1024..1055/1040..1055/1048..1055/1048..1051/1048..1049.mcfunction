@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 1048 run data modify storage forever_ids:output result set value "minecraft:soul_torch"
+execute if score #id forever_ids.tmp matches 1049 run data modify storage forever_ids:output result set value "minecraft:spawner"

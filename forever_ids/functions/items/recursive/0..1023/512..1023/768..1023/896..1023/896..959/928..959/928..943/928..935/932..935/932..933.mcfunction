@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 932 run data modify storage forever_ids:output result set value "minecraft:rail"
+execute if score #id forever_ids.tmp matches 933 run data modify storage forever_ids:output result set value "minecraft:raiser_armor_trim_smithing_template"

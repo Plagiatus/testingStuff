@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 0 run data modify storage forever_ids:output result set value "minecraft:air"
+execute if score #id forever_ids.tmp matches 1 run data modify storage forever_ids:output result set value "minecraft:acacia_button"

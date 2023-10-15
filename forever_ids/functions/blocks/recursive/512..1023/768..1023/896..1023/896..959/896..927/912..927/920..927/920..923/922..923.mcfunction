@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 922 run data modify storage forever_ids:output result set value "minecraft:void_air"
+execute if score #id forever_ids.tmp matches 923 run data modify storage forever_ids:output result set value "minecraft:wall_torch"

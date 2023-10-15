@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 680 run data modify storage forever_ids:output result set value "minecraft:magma_cube_spawn_egg"
+execute if score #id forever_ids.tmp matches 681 run data modify storage forever_ids:output result set value "minecraft:mangrove_boat"

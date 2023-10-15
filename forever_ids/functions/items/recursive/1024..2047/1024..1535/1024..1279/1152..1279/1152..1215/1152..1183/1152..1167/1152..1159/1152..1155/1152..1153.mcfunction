@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 1152 run data modify storage forever_ids:output result set value "minecraft:turtle_helmet"
+execute if score #id forever_ids.tmp matches 1153 run data modify storage forever_ids:output result set value "minecraft:turtle_spawn_egg"

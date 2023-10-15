@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 1146 run data modify storage forever_ids:output result set value "minecraft:tropical_fish_spawn_egg"
+execute if score #id forever_ids.tmp matches 1147 run data modify storage forever_ids:output result set value "minecraft:tube_coral"

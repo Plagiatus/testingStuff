@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 360 run data modify storage forever_ids:output result set value "minecraft:fire_coral"
+execute if score #id forever_ids.tmp matches 361 run data modify storage forever_ids:output result set value "minecraft:fire_coral_block"

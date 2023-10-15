@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 594 run data modify storage forever_ids:output result set value "minecraft:oak_log"
+execute if score #id forever_ids.tmp matches 595 run data modify storage forever_ids:output result set value "minecraft:oak_planks"

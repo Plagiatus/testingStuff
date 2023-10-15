@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 1046 run data modify storage forever_ids:output result set value "minecraft:soul_sand"
+execute if score #id forever_ids.tmp matches 1047 run data modify storage forever_ids:output result set value "minecraft:soul_soil"

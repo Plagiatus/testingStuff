@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 498 run data modify storage forever_ids:output result set value "minecraft:light_weighted_pressure_plate"
+execute if score #id forever_ids.tmp matches 499 run data modify storage forever_ids:output result set value "minecraft:lightning_rod"

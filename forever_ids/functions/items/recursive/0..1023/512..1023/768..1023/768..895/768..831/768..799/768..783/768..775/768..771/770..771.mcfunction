@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 770 run data modify storage forever_ids:output result set value "minecraft:netherite_scrap"
+execute if score #id forever_ids.tmp matches 771 run data modify storage forever_ids:output result set value "minecraft:netherite_shovel"

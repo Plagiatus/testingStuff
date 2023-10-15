@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 356 run data modify storage forever_ids:output result set value "minecraft:exposed_cut_copper_stairs"
+execute if score #id forever_ids.tmp matches 357 run data modify storage forever_ids:output result set value "minecraft:farmland"

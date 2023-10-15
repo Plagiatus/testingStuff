@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 1134 run data modify storage forever_ids:output result set value "minecraft:tnt"
+execute if score #id forever_ids.tmp matches 1135 run data modify storage forever_ids:output result set value "minecraft:tnt_minecart"

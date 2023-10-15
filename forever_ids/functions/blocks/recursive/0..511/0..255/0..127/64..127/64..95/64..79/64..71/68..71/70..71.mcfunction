@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 70 run data modify storage forever_ids:output result set value "minecraft:birch_planks"
+execute if score #id forever_ids.tmp matches 71 run data modify storage forever_ids:output result set value "minecraft:birch_pressure_plate"

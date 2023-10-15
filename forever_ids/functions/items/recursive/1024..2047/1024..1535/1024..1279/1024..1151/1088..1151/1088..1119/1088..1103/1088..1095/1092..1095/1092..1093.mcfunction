@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 1092 run data modify storage forever_ids:output result set value "minecraft:stonecutter"
+execute if score #id forever_ids.tmp matches 1093 run data modify storage forever_ids:output result set value "minecraft:stray_spawn_egg"

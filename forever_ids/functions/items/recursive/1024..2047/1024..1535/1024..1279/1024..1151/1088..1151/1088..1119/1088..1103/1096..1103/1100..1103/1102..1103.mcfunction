@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 1102 run data modify storage forever_ids:output result set value "minecraft:stripped_cherry_wood"
+execute if score #id forever_ids.tmp matches 1103 run data modify storage forever_ids:output result set value "minecraft:stripped_crimson_hyphae"

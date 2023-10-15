@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 586 run data modify storage forever_ids:output result set value "minecraft:jungle_hanging_sign"
+execute if score #id forever_ids.tmp matches 587 run data modify storage forever_ids:output result set value "minecraft:jungle_leaves"

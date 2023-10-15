@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 588 run data modify storage forever_ids:output result set value "minecraft:oak_button"
+execute if score #id forever_ids.tmp matches 589 run data modify storage forever_ids:output result set value "minecraft:oak_door"

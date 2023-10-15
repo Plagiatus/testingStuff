@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 1016 run data modify storage forever_ids:output result set value "minecraft:skull_pottery_sherd"
+execute if score #id forever_ids.tmp matches 1017 run data modify storage forever_ids:output result set value "minecraft:slime_ball"

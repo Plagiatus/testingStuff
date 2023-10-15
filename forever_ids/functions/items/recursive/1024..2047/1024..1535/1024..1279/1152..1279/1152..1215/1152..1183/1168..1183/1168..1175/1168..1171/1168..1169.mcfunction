@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 1168 run data modify storage forever_ids:output result set value "minecraft:warped_fungus"
+execute if score #id forever_ids.tmp matches 1169 run data modify storage forever_ids:output result set value "minecraft:warped_fungus_on_a_stick"

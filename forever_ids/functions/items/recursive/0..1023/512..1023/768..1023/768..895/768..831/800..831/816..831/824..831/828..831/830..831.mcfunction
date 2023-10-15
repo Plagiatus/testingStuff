@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 830 run data modify storage forever_ids:output result set value "minecraft:piglin_head"
+execute if score #id forever_ids.tmp matches 831 run data modify storage forever_ids:output result set value "minecraft:piglin_spawn_egg"

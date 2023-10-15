@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 460 run data modify storage forever_ids:output result set value "minecraft:lantern"
+execute if score #id forever_ids.tmp matches 461 run data modify storage forever_ids:output result set value "minecraft:lapis_block"

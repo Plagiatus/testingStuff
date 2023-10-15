@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 1010 run data modify storage forever_ids:output result set value "minecraft:silence_armor_trim_smithing_template"
+execute if score #id forever_ids.tmp matches 1011 run data modify storage forever_ids:output result set value "minecraft:silverfish_spawn_egg"

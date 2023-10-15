@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 204 run data modify storage forever_ids:output result set value "minecraft:cobblestone_wall"
+execute if score #id forever_ids.tmp matches 205 run data modify storage forever_ids:output result set value "minecraft:cobweb"

@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 940 run data modify storage forever_ids:output result set value "minecraft:raw_iron_block"
+execute if score #id forever_ids.tmp matches 941 run data modify storage forever_ids:output result set value "minecraft:recovery_compass"

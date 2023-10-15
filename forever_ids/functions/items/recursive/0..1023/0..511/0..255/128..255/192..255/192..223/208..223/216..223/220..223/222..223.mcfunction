@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 222 run data modify storage forever_ids:output result set value "minecraft:chorus_fruit"
+execute if score #id forever_ids.tmp matches 223 run data modify storage forever_ids:output result set value "minecraft:chorus_plant"

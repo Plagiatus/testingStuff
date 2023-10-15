@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 656 run data modify storage forever_ids:output result set value "minecraft:lime_shulker_box"
+execute if score #id forever_ids.tmp matches 657 run data modify storage forever_ids:output result set value "minecraft:lime_stained_glass"

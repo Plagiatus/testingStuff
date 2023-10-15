@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 1042 run data modify storage forever_ids:output result set value "minecraft:snow_golem_spawn_egg"
+execute if score #id forever_ids.tmp matches 1043 run data modify storage forever_ids:output result set value "minecraft:snowball"

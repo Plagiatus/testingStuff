@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 112 run data modify storage forever_ids:output result set value "minecraft:blaze_rod"
+execute if score #id forever_ids.tmp matches 113 run data modify storage forever_ids:output result set value "minecraft:blaze_spawn_egg"

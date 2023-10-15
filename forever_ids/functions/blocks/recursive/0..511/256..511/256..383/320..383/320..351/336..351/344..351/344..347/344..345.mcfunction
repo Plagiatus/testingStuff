@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 344 run data modify storage forever_ids:output result set value "minecraft:end_portal"
+execute if score #id forever_ids.tmp matches 345 run data modify storage forever_ids:output result set value "minecraft:end_portal_frame"

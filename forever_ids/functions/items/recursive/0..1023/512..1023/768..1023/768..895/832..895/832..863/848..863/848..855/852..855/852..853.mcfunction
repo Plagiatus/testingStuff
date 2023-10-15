@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 852 run data modify storage forever_ids:output result set value "minecraft:plenty_pottery_sherd"
+execute if score #id forever_ids.tmp matches 853 run data modify storage forever_ids:output result set value "minecraft:podzol"

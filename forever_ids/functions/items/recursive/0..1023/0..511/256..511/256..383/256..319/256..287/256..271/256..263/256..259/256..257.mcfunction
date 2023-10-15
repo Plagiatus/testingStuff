@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 256 run data modify storage forever_ids:output result set value "minecraft:cooked_rabbit"
+execute if score #id forever_ids.tmp matches 257 run data modify storage forever_ids:output result set value "minecraft:cooked_salmon"

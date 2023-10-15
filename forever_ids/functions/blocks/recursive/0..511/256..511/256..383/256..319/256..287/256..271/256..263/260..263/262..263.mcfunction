@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 262 run data modify storage forever_ids:output result set value "minecraft:damaged_anvil"
+execute if score #id forever_ids.tmp matches 263 run data modify storage forever_ids:output result set value "minecraft:dandelion"

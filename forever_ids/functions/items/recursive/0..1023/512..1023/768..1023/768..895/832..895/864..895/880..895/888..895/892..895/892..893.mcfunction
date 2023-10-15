@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 892 run data modify storage forever_ids:output result set value "minecraft:prismarine_crystals"
+execute if score #id forever_ids.tmp matches 893 run data modify storage forever_ids:output result set value "minecraft:prismarine_shard"

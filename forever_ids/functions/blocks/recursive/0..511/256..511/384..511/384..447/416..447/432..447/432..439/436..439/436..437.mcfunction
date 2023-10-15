@@ -1,0 +1,2 @@
+execute if score #id forever_ids.tmp matches 436 run data modify storage forever_ids:output result set value "minecraft:iron_trapdoor"
+execute if score #id forever_ids.tmp matches 437 run data modify storage forever_ids:output result set value "minecraft:jack_o_lantern"
