@@ -32,7 +32,6 @@ jobs:
         run: |
           echo ${{ steps.check.outputs.id }}
           echo ${{ github.event.inputs.override_version }}
-          echo ${{ check_for_updates.outputs.id }}
   
   update:
     runs-on: ubuntu-latest
