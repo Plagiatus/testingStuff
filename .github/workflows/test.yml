@@ -48,7 +48,7 @@ jobs:
   update_check_true:
     runs-on: ubuntu-latest
     needs: check_for_updates
-    if: ${{ github.event.inputs.ignore_update_check }}
+    if: ${{ github.event.inputs.ignore_update_check == 'true' }}
     steps:
       - name: Output
         run: |
@@ -57,7 +57,7 @@ jobs:
   update_check_false:
     runs-on: ubuntu-latest
     needs: check_for_updates
-    if: ${{ ! github.event.inputs.ignore_update_check }}
+    if: ${{ github.event.inputs.ignore_update_check == 'false' }}
     steps:
       - name: Output
         run: |
