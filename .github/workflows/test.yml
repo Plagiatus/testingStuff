@@ -30,7 +30,7 @@ jobs:
   id_present:
     runs-on: ubuntu-latest
     needs: check_for_updates
-    if: ${{ needs.check_for_updates.outputs.id != "" }}
+    if: ${{ needs.check_for_updates.outputs.id != '' }}
     steps:
       - name: Output
         run: |
@@ -39,7 +39,7 @@ jobs:
   id_not_present:
     runs-on: ubuntu-latest
     needs: check_for_updates
-    if: ${{ needs.check_for_updates.outputs.id == "" }}
+    if: ${{ needs.check_for_updates.outputs.id == '' }}
     steps:
       - name: Output
         run: |
