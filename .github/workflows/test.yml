@@ -1,4 +1,4 @@
-name: Update
+name: Test
 
 on:
   workflow_dispatch:
@@ -45,7 +45,7 @@ jobs:
         run: |
           echo "id not present (empty): ${{ needs.check_for_updates.outputs.id }}"
 
-  ignore_update_check:
+  update_check_true:
     runs-on: ubuntu-latest
     needs: check_for_updates
     if: ${{ github.event.inputs.ignore_update_check }}
@@ -54,10 +54,19 @@ jobs:
         run: |
           echo "update check ignored (true): ${{ github.event.inputs.ignore_update_check }}"
 
-  dont_ignore_update_check:
+  update_check_false:
     runs-on: ubuntu-latest
     needs: check_for_updates
     if: ${{ ! github.event.inputs.ignore_update_check }}
+    steps:
+      - name: Output
+        run: |
+          echo "update check NOT ignored (false): ${{ github.event.inputs.ignore_update_check }}"
+
+  either_or:
+    runs-on: ubuntu-latest
+    needs: check_for_updates
+    if: ${{ github.event.inputs.ignore_update_check || needs.check_for_updates.outputs.id != '' }}
     steps:
       - name: Output
         run: |
