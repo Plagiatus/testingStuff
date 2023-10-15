@@ -20,7 +20,7 @@ jobs:
   check_for_updates:
     runs-on: ubuntu-latest
     outputs:
-      id: ${{steps.check.outputs.id}}
+      id: ${{ steps.check.outputs.id }}
     steps:
       - id: check
         name: Check for Minecraft Updates
@@ -28,6 +28,11 @@ jobs:
         with:
           version-manifest-url: 'https://piston-meta.mojang.com/mc/game/version_manifest_v2.json'
           cache-base-key: 'mc-manifest-'
+      - name: Check Inputs
+        run: |
+          echo ${{ steps.check.outputs.id }}
+          echo ${{ github.event.inputs.override_version }}
+          echo ${{ check_for_updates.outputs.id }}
   
   update:
     runs-on: ubuntu-latest
