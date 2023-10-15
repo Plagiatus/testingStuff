@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 1060 run data modify storage forever_ids:output result set value "minecraft:spruce_door"
-execute if score #id forever_ids.tmp matches 1061 run data modify storage forever_ids:output result set value "minecraft:spruce_fence"

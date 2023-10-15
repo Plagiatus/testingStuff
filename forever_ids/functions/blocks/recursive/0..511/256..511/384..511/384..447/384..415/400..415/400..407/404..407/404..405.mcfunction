@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 404 run data modify storage forever_ids:output result set value "minecraft:green_concrete"
-execute if score #id forever_ids.tmp matches 405 run data modify storage forever_ids:output result set value "minecraft:green_concrete_powder"

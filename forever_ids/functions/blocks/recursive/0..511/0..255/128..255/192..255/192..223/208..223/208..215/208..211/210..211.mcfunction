@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 210 run data modify storage forever_ids:output result set value "minecraft:conduit"
-execute if score #id forever_ids.tmp matches 211 run data modify storage forever_ids:output result set value "minecraft:copper_block"

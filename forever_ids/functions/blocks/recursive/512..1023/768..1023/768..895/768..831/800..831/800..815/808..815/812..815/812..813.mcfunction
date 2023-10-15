@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 812 run data modify storage forever_ids:output result set value "minecraft:skeleton_skull"
-execute if score #id forever_ids.tmp matches 813 run data modify storage forever_ids:output result set value "minecraft:skeleton_wall_skull"

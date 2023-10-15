@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 542 run data modify storage forever_ids:output result set value "minecraft:mangrove_pressure_plate"
-execute if score #id forever_ids.tmp matches 543 run data modify storage forever_ids:output result set value "minecraft:mangrove_propagule"

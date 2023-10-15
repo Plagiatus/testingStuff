@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 1126 run data modify storage forever_ids:output result set value "minecraft:tadpole_bucket"
-execute if score #id forever_ids.tmp matches 1127 run data modify storage forever_ids:output result set value "minecraft:tadpole_spawn_egg"

@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 746 run data modify storage forever_ids:output result set value "minecraft:mycelium"
-execute if score #id forever_ids.tmp matches 747 run data modify storage forever_ids:output result set value "minecraft:name_tag"

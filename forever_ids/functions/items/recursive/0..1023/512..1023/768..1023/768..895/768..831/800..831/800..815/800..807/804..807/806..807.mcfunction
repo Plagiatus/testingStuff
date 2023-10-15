@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 806 run data modify storage forever_ids:output result set value "minecraft:orange_stained_glass"
-execute if score #id forever_ids.tmp matches 807 run data modify storage forever_ids:output result set value "minecraft:orange_stained_glass_pane"

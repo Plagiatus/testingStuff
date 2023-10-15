@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 446 run data modify storage forever_ids:output result set value "minecraft:fishing_rod"
-execute if score #id forever_ids.tmp matches 447 run data modify storage forever_ids:output result set value "minecraft:fletching_table"

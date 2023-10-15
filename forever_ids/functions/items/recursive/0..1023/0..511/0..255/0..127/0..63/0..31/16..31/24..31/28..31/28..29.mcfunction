@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 28 run data modify storage forever_ids:output result set value "minecraft:andesite_wall"
-execute if score #id forever_ids.tmp matches 29 run data modify storage forever_ids:output result set value "minecraft:angler_pottery_sherd"

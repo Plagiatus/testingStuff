@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 508 run data modify storage forever_ids:output result set value "minecraft:gray_shulker_box"
-execute if score #id forever_ids.tmp matches 509 run data modify storage forever_ids:output result set value "minecraft:gray_stained_glass"

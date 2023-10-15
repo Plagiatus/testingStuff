@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 990 run data modify storage forever_ids:output result set value "minecraft:sculk"
-execute if score #id forever_ids.tmp matches 991 run data modify storage forever_ids:output result set value "minecraft:sculk_catalyst"

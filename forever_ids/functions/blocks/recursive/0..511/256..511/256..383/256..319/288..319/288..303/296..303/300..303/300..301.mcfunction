@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 300 run data modify storage forever_ids:output result set value "minecraft:dead_horn_coral_fan"
-execute if score #id forever_ids.tmp matches 301 run data modify storage forever_ids:output result set value "minecraft:dead_horn_coral_wall_fan"

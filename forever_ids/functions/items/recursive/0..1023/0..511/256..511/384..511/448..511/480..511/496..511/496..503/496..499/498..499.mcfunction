@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 498 run data modify storage forever_ids:output result set value "minecraft:grass_block"
-execute if score #id forever_ids.tmp matches 499 run data modify storage forever_ids:output result set value "minecraft:gravel"

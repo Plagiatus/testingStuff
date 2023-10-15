@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 1216 run data modify storage forever_ids:output result set value "minecraft:white_shulker_box"
-execute if score #id forever_ids.tmp matches 1217 run data modify storage forever_ids:output result set value "minecraft:white_stained_glass"

@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 348 run data modify storage forever_ids:output result set value "minecraft:dead_tube_coral"
-execute if score #id forever_ids.tmp matches 349 run data modify storage forever_ids:output result set value "minecraft:dead_tube_coral_block"

@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 604 run data modify storage forever_ids:output result set value "minecraft:oak_wood"
-execute if score #id forever_ids.tmp matches 605 run data modify storage forever_ids:output result set value "minecraft:observer"

@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 1076 run data modify storage forever_ids:output result set value "minecraft:stick"
-execute if score #id forever_ids.tmp matches 1077 run data modify storage forever_ids:output result set value "minecraft:sticky_piston"

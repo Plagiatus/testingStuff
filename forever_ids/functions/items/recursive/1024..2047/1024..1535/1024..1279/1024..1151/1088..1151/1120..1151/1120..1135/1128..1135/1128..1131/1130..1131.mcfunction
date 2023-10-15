@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 1130 run data modify storage forever_ids:output result set value "minecraft:terracotta"
-execute if score #id forever_ids.tmp matches 1131 run data modify storage forever_ids:output result set value "minecraft:tide_armor_trim_smithing_template"

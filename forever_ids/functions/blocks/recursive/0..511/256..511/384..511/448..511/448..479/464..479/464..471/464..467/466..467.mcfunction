@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 466 run data modify storage forever_ids:output result set value "minecraft:lava_cauldron"
-execute if score #id forever_ids.tmp matches 467 run data modify storage forever_ids:output result set value "minecraft:lectern"

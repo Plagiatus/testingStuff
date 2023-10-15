@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 180 run data modify storage forever_ids:output result set value "minecraft:carved_pumpkin"
-execute if score #id forever_ids.tmp matches 181 run data modify storage forever_ids:output result set value "minecraft:cat_spawn_egg"

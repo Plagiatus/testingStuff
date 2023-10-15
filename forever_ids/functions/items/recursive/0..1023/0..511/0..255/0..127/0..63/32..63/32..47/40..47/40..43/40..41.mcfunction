@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 40 run data modify storage forever_ids:output result set value "minecraft:azure_bluet"
-execute if score #id forever_ids.tmp matches 41 run data modify storage forever_ids:output result set value "minecraft:baked_potato"

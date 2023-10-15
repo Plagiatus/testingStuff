@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 134 run data modify storage forever_ids:output result set value "minecraft:brown_mushroom"
-execute if score #id forever_ids.tmp matches 135 run data modify storage forever_ids:output result set value "minecraft:brown_mushroom_block"

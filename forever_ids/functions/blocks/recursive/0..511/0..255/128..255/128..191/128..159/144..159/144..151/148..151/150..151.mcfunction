@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 150 run data modify storage forever_ids:output result set value "minecraft:calcite"
-execute if score #id forever_ids.tmp matches 151 run data modify storage forever_ids:output result set value "minecraft:calibrated_sculk_sensor"

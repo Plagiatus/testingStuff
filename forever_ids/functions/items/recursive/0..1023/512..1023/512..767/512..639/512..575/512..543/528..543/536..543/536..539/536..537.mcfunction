@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 536 run data modify storage forever_ids:output result set value "minecraft:honey_block"
-execute if score #id forever_ids.tmp matches 537 run data modify storage forever_ids:output result set value "minecraft:honey_bottle"

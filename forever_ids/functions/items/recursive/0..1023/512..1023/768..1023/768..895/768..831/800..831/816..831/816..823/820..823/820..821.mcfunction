@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 820 run data modify storage forever_ids:output result set value "minecraft:paper"
-execute if score #id forever_ids.tmp matches 821 run data modify storage forever_ids:output result set value "minecraft:parrot_spawn_egg"

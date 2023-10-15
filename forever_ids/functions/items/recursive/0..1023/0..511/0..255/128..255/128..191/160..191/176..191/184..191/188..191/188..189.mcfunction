@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 188 run data modify storage forever_ids:output result set value "minecraft:chainmail_helmet"
-execute if score #id forever_ids.tmp matches 189 run data modify storage forever_ids:output result set value "minecraft:chainmail_leggings"

@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 922 run data modify storage forever_ids:output result set value "minecraft:quartz_block"
-execute if score #id forever_ids.tmp matches 923 run data modify storage forever_ids:output result set value "minecraft:quartz_bricks"

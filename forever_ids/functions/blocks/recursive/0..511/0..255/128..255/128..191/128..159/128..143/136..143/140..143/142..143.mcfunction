@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 142 run data modify storage forever_ids:output result set value "minecraft:bubble_column"
-execute if score #id forever_ids.tmp matches 143 run data modify storage forever_ids:output result set value "minecraft:bubble_coral"

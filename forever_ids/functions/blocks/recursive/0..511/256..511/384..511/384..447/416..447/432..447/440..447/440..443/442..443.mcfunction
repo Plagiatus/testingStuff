@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 442 run data modify storage forever_ids:output result set value "minecraft:jungle_fence"
-execute if score #id forever_ids.tmp matches 443 run data modify storage forever_ids:output result set value "minecraft:jungle_fence_gate"

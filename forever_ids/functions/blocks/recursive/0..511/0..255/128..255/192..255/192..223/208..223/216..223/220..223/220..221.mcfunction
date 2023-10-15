@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 220 run data modify storage forever_ids:output result set value "minecraft:creeper_head"
-execute if score #id forever_ids.tmp matches 221 run data modify storage forever_ids:output result set value "minecraft:creeper_wall_head"

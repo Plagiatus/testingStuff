@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 230 run data modify storage forever_ids:output result set value "minecraft:coarse_dirt"
-execute if score #id forever_ids.tmp matches 231 run data modify storage forever_ids:output result set value "minecraft:coast_armor_trim_smithing_template"

@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 262 run data modify storage forever_ids:output result set value "minecraft:cornflower"
-execute if score #id forever_ids.tmp matches 263 run data modify storage forever_ids:output result set value "minecraft:cow_spawn_egg"

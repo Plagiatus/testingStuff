@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 598 run data modify storage forever_ids:output result set value "minecraft:knowledge_book"
-execute if score #id forever_ids.tmp matches 599 run data modify storage forever_ids:output result set value "minecraft:ladder"

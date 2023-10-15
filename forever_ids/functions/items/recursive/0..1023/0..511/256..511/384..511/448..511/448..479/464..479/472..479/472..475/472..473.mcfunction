@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 472 run data modify storage forever_ids:output result set value "minecraft:glow_squid_spawn_egg"
-execute if score #id forever_ids.tmp matches 473 run data modify storage forever_ids:output result set value "minecraft:glowstone"

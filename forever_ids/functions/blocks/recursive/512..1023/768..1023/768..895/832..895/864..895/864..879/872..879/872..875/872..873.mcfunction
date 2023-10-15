@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 872 run data modify storage forever_ids:output result set value "minecraft:stripped_acacia_log"
-execute if score #id forever_ids.tmp matches 873 run data modify storage forever_ids:output result set value "minecraft:stripped_acacia_wood"

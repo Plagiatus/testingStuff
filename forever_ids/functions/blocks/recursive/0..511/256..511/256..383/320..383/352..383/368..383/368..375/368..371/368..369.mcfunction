@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 368 run data modify storage forever_ids:output result set value "minecraft:frogspawn"
-execute if score #id forever_ids.tmp matches 369 run data modify storage forever_ids:output result set value "minecraft:frosted_ice"

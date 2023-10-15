@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 416 run data modify storage forever_ids:output result set value "minecraft:heavy_weighted_pressure_plate"
-execute if score #id forever_ids.tmp matches 417 run data modify storage forever_ids:output result set value "minecraft:honey_block"

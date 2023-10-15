@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 1142 run data modify storage forever_ids:output result set value "minecraft:trident"
-execute if score #id forever_ids.tmp matches 1143 run data modify storage forever_ids:output result set value "minecraft:tripwire_hook"

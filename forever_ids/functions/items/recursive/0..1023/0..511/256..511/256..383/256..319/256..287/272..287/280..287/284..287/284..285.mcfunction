@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 284 run data modify storage forever_ids:output result set value "minecraft:crimson_sign"
-execute if score #id forever_ids.tmp matches 285 run data modify storage forever_ids:output result set value "minecraft:crimson_slab"

@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 894 run data modify storage forever_ids:output result set value "minecraft:structure_void"
-execute if score #id forever_ids.tmp matches 895 run data modify storage forever_ids:output result set value "minecraft:sugar_cane"

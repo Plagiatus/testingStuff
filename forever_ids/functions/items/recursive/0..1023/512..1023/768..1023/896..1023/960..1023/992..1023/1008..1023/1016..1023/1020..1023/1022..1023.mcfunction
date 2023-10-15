@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 1022 run data modify storage forever_ids:output result set value "minecraft:smithing_table"
-execute if score #id forever_ids.tmp matches 1023 run data modify storage forever_ids:output result set value "minecraft:smoker"

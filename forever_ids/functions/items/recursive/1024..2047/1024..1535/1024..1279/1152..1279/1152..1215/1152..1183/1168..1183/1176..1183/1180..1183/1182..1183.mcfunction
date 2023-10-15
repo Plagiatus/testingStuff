@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 1182 run data modify storage forever_ids:output result set value "minecraft:water_bucket"
-execute if score #id forever_ids.tmp matches 1183 run data modify storage forever_ids:output result set value "minecraft:waxed_copper_block"

@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 584 run data modify storage forever_ids:output result set value "minecraft:nether_wart_block"
-execute if score #id forever_ids.tmp matches 585 run data modify storage forever_ids:output result set value "minecraft:netherite_block"

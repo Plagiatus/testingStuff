@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 470 run data modify storage forever_ids:output result set value "minecraft:glow_item_frame"
-execute if score #id forever_ids.tmp matches 471 run data modify storage forever_ids:output result set value "minecraft:glow_lichen"

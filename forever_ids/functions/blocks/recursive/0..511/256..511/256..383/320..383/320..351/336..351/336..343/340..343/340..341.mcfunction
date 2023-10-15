@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 340 run data modify storage forever_ids:output result set value "minecraft:emerald_block"
-execute if score #id forever_ids.tmp matches 341 run data modify storage forever_ids:output result set value "minecraft:emerald_ore"

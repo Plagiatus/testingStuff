@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 168 run data modify storage forever_ids:output result set value "minecraft:bundle"
-execute if score #id forever_ids.tmp matches 169 run data modify storage forever_ids:output result set value "minecraft:burn_pottery_sherd"

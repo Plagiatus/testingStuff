@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 558 run data modify storage forever_ids:output result set value "minecraft:iron_axe"
-execute if score #id forever_ids.tmp matches 559 run data modify storage forever_ids:output result set value "minecraft:iron_bars"

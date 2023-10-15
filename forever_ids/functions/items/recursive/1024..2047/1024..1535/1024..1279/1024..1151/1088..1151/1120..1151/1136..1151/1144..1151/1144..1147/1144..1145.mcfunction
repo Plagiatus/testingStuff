@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 1144 run data modify storage forever_ids:output result set value "minecraft:tropical_fish"
-execute if score #id forever_ids.tmp matches 1145 run data modify storage forever_ids:output result set value "minecraft:tropical_fish_bucket"

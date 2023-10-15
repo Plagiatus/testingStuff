@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 1014 run data modify storage forever_ids:output result set value "minecraft:skeleton_spawn_egg"
-execute if score #id forever_ids.tmp matches 1015 run data modify storage forever_ids:output result set value "minecraft:skull_banner_pattern"

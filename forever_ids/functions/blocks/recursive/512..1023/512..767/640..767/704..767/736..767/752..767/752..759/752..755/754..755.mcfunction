@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 754 run data modify storage forever_ids:output result set value "minecraft:rail"
-execute if score #id forever_ids.tmp matches 755 run data modify storage forever_ids:output result set value "minecraft:raw_copper_block"

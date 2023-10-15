@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 338 run data modify storage forever_ids:output result set value "minecraft:dripstone_block"
-execute if score #id forever_ids.tmp matches 339 run data modify storage forever_ids:output result set value "minecraft:dropper"

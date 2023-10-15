@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 156 run data modify storage forever_ids:output result set value "minecraft:cartography_table"
-execute if score #id forever_ids.tmp matches 157 run data modify storage forever_ids:output result set value "minecraft:carved_pumpkin"

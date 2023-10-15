@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 420 run data modify storage forever_ids:output result set value "minecraft:end_stone_bricks"
-execute if score #id forever_ids.tmp matches 421 run data modify storage forever_ids:output result set value "minecraft:ender_chest"

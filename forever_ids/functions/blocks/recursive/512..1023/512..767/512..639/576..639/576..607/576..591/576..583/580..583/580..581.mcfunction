@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 580 run data modify storage forever_ids:output result set value "minecraft:nether_portal"
-execute if score #id forever_ids.tmp matches 581 run data modify storage forever_ids:output result set value "minecraft:nether_quartz_ore"

@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 578 run data modify storage forever_ids:output result set value "minecraft:jigsaw"
-execute if score #id forever_ids.tmp matches 579 run data modify storage forever_ids:output result set value "minecraft:jukebox"

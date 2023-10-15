@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 270 run data modify storage forever_ids:output result set value "minecraft:dark_oak_log"
-execute if score #id forever_ids.tmp matches 271 run data modify storage forever_ids:output result set value "minecraft:dark_oak_planks"

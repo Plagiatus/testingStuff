@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 606 run data modify storage forever_ids:output result set value "minecraft:obsidian"
-execute if score #id forever_ids.tmp matches 607 run data modify storage forever_ids:output result set value "minecraft:ochre_froglight"

@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 38 run data modify storage forever_ids:output result set value "minecraft:azalea"
-execute if score #id forever_ids.tmp matches 39 run data modify storage forever_ids:output result set value "minecraft:azalea_leaves"

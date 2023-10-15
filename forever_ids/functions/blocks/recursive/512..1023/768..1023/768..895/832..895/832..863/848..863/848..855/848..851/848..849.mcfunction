@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 848 run data modify storage forever_ids:output result set value "minecraft:spruce_hanging_sign"
-execute if score #id forever_ids.tmp matches 849 run data modify storage forever_ids:output result set value "minecraft:spruce_leaves"

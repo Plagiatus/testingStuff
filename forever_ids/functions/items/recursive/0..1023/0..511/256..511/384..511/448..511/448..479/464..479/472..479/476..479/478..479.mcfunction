@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 478 run data modify storage forever_ids:output result set value "minecraft:gold_ingot"
-execute if score #id forever_ids.tmp matches 479 run data modify storage forever_ids:output result set value "minecraft:gold_nugget"

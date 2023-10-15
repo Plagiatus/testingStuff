@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 454 run data modify storage forever_ids:output result set value "minecraft:jungle_wall_hanging_sign"
-execute if score #id forever_ids.tmp matches 455 run data modify storage forever_ids:output result set value "minecraft:jungle_wall_sign"

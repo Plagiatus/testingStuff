@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 852 run data modify storage forever_ids:output result set value "minecraft:spruce_pressure_plate"
-execute if score #id forever_ids.tmp matches 853 run data modify storage forever_ids:output result set value "minecraft:spruce_sapling"

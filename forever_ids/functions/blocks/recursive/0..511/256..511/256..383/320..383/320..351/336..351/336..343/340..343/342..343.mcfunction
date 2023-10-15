@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 342 run data modify storage forever_ids:output result set value "minecraft:enchanting_table"
-execute if score #id forever_ids.tmp matches 343 run data modify storage forever_ids:output result set value "minecraft:end_gateway"

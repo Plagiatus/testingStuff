@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 736 run data modify storage forever_ids:output result set value "minecraft:music_disc_mall"
-execute if score #id forever_ids.tmp matches 737 run data modify storage forever_ids:output result set value "minecraft:music_disc_mellohi"

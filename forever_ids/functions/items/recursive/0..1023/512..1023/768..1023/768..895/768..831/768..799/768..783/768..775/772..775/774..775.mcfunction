@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 774 run data modify storage forever_ids:output result set value "minecraft:netherrack"
-execute if score #id forever_ids.tmp matches 775 run data modify storage forever_ids:output result set value "minecraft:note_block"

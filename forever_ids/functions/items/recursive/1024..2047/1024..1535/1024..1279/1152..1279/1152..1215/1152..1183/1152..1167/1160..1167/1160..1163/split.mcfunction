@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 1160..1161 run function forever_ids:items/recursive/1024..2047/1024..1535/1024..1279/1152..1279/1152..1215/1152..1183/1152..1167/1160..1167/1160..1163/1160..1161
-execute if score #id forever_ids.tmp matches 1162..1163 run function forever_ids:items/recursive/1024..2047/1024..1535/1024..1279/1152..1279/1152..1215/1152..1183/1152..1167/1160..1167/1160..1163/1162..1163

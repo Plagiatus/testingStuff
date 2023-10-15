@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 628 run data modify storage forever_ids:output result set value "minecraft:light_blue_terracotta"
-execute if score #id forever_ids.tmp matches 629 run data modify storage forever_ids:output result set value "minecraft:light_blue_wool"

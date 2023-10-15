@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 28 run data modify storage forever_ids:output result set value "minecraft:attached_melon_stem"
-execute if score #id forever_ids.tmp matches 29 run data modify storage forever_ids:output result set value "minecraft:attached_pumpkin_stem"

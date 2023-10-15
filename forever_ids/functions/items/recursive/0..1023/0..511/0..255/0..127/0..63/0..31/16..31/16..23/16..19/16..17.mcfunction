@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 16 run data modify storage forever_ids:output result set value "minecraft:acacia_trapdoor"
-execute if score #id forever_ids.tmp matches 17 run data modify storage forever_ids:output result set value "minecraft:acacia_wood"

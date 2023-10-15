@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 512 run data modify storage forever_ids:output result set value "minecraft:lime_stained_glass"
-execute if score #id forever_ids.tmp matches 513 run data modify storage forever_ids:output result set value "minecraft:lime_stained_glass_pane"

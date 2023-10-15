@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 834 run data modify storage forever_ids:output result set value "minecraft:soul_campfire"
-execute if score #id forever_ids.tmp matches 835 run data modify storage forever_ids:output result set value "minecraft:soul_fire"

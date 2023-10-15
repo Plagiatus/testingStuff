@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 266 run data modify storage forever_ids:output result set value "minecraft:cracked_nether_bricks"
-execute if score #id forever_ids.tmp matches 267 run data modify storage forever_ids:output result set value "minecraft:cracked_polished_blackstone_bricks"

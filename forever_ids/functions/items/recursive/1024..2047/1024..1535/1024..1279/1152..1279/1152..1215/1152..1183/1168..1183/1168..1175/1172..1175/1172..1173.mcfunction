@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 1172 run data modify storage forever_ids:output result set value "minecraft:warped_nylium"
-execute if score #id forever_ids.tmp matches 1173 run data modify storage forever_ids:output result set value "minecraft:warped_planks"

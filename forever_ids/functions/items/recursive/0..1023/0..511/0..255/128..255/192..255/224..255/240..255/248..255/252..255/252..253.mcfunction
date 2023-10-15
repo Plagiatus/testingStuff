@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 252 run data modify storage forever_ids:output result set value "minecraft:cooked_chicken"
-execute if score #id forever_ids.tmp matches 253 run data modify storage forever_ids:output result set value "minecraft:cooked_cod"

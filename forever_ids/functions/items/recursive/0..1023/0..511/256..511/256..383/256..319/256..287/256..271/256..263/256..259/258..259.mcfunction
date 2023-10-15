@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 258 run data modify storage forever_ids:output result set value "minecraft:cookie"
-execute if score #id forever_ids.tmp matches 259 run data modify storage forever_ids:output result set value "minecraft:copper_block"

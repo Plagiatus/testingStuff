@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 564 run data modify storage forever_ids:output result set value "minecraft:iron_golem_spawn_egg"
-execute if score #id forever_ids.tmp matches 565 run data modify storage forever_ids:output result set value "minecraft:iron_helmet"

@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 422 run data modify storage forever_ids:output result set value "minecraft:ender_dragon_spawn_egg"
-execute if score #id forever_ids.tmp matches 423 run data modify storage forever_ids:output result set value "minecraft:ender_eye"

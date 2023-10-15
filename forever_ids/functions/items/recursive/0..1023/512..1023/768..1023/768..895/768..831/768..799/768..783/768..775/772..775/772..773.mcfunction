@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 772 run data modify storage forever_ids:output result set value "minecraft:netherite_sword"
-execute if score #id forever_ids.tmp matches 773 run data modify storage forever_ids:output result set value "minecraft:netherite_upgrade_smithing_template"

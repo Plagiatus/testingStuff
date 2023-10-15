@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 542 run data modify storage forever_ids:output result set value "minecraft:horn_coral"
-execute if score #id forever_ids.tmp matches 543 run data modify storage forever_ids:output result set value "minecraft:horn_coral_block"

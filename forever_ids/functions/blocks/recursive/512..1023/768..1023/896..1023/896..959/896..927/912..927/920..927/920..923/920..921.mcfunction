@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 920 run data modify storage forever_ids:output result set value "minecraft:verdant_froglight"
-execute if score #id forever_ids.tmp matches 921 run data modify storage forever_ids:output result set value "minecraft:vine"

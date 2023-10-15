@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 162 run data modify storage forever_ids:output result set value "minecraft:chain"
-execute if score #id forever_ids.tmp matches 163 run data modify storage forever_ids:output result set value "minecraft:chain_command_block"

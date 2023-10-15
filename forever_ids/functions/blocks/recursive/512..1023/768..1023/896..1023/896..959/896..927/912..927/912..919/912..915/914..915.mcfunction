@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 914 run data modify storage forever_ids:output result set value "minecraft:tube_coral_fan"
-execute if score #id forever_ids.tmp matches 915 run data modify storage forever_ids:output result set value "minecraft:tube_coral_wall_fan"

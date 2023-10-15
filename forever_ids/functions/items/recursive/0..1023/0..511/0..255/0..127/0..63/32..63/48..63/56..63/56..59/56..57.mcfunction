@@ -1,2 +1,0 @@
-execute if score #id forever_ids.tmp matches 56 run data modify storage forever_ids:output result set value "minecraft:bamboo_sign"
-execute if score #id forever_ids.tmp matches 57 run data modify storage forever_ids:output result set value "minecraft:bamboo_slab"
