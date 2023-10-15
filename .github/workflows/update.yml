@@ -27,7 +27,7 @@ jobs:
         uses: ByMartrixX/minecraft-update-check-action@v0
         with:
           version-manifest-url: 'https://piston-meta.mojang.com/mc/game/version_manifest_v2.json'
-          cache-base-key: 'mc-manifest-'
+          cache-base-key: 'mc-manifes-'
       - name: Check Inputs
         run: |
           echo ${{ steps.check.outputs.id }}
@@ -42,7 +42,7 @@ jobs:
         run: | 
           echo ${{ github.event.inputs.ignore_update_check }}
           echo ${{ needs.check_for_updates.outputs.id }}
-          echo ${{ needs.check_for_updates.outputs.id != '' }}
+          echo ${{ needs.check_for_updates.outputs.id == '' }}
           echo ${{ needs.check_for_updates.outputs.id != '' || github.event.inputs.ignore_update_check }}
       - name: Checkout Repo
         uses: actions/checkout@v3
