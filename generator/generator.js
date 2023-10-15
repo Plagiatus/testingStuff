@@ -5,7 +5,6 @@ const { argv } = require("process");
 
 let githubPath = "master";
 if(argv[2]){
-    console.log(argv);
     githubPath = argv[2];
 }
 console.log(`Using version ${githubPath}`);
@@ -40,6 +39,8 @@ async function run() {
     console.group("Saving files")
     fs.writeFileSync(blocksJsonPath, JSON.stringify(blocks, null, 2));
     fs.writeFileSync(itemsJsonPath, JSON.stringify(items, null, 2));
+    if(githubPath && githubPath != "master")
+        fs.writeFileSync(path.join(__dirname, "../VERSION.txt"), githubPath);
     console.groupEnd();
 
     console.log("Done.");

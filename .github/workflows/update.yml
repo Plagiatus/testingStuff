@@ -61,6 +61,7 @@ jobs:
           node generator/generator.js ${{ github.event.inputs.override_version || needs.check_for_updates.outputs.id }}
 
       - name: Push Tag
+        if: ${{ needs.check_for_updates.outputs.id != '' || github.event.inputs.ignore_update_check }}
         run: |
           version=${{ github.event.inputs.override_version || needs.check_for_updates.outputs.id }}
           git add .
