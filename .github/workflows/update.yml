@@ -47,11 +47,11 @@ jobs:
 
       - name: Run Generator
         run: |
-          node generator/generator.js ${{github.event.inputs.override_version || needs.check_for_updates.outputs.id}}
+          node generator/generator.js ${{ github.event.inputs.override_version || needs.check_for_updates.outputs.id }}
 
       - name: Push Tag
         run: |
-          version=${{github.event.inputs.override_version || needs.check_for_updates.outputs.id}}
+          version=${{ github.event.inputs.override_version || needs.check_for_updates.outputs.id }}
           git add .
           git commit -m $version
           git tag -a $version -m $version
