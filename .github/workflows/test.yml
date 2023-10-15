@@ -1,21 +1,64 @@
-name: Test
+name: Update
 
-on: 
+on:
   workflow_dispatch:
-    inputs:
-      environment:
-        description: 'Define env name'     
+    inputs: 
+      ignore_update_check: 
+        description: "Ignore update check?"
         required: true
-        default: 'prod'
-      branch:
-        description: 'Define branch name'     
-        required: true
-        default: 'master'
+        default: true
+        type: boolean
+      override_version: 
+        description: "Override version to check"
+        required: false
+        default: ""
+        type: string
 
 jobs:
-  printInputs:
+  check_for_updates:
     runs-on: ubuntu-latest
+    outputs:
+      id: ${{ steps.check.outputs.id }}
     steps:
-    - run: |
-        echo "Env: ${{ github.event.inputs.environment }}" 
-        echo "Branch: ${{ github.event.inputs.branch }}"
+      - id: check
+        name: Check for Minecraft Updates
+        uses: ByMartrixX/minecraft-update-check-action@v0
+        with:
+          version-manifest-url: 'https://piston-meta.mojang.com/mc/game/version_manifest_v2.json'
+          cache-base-key: 'mc-manifest-'
+
+  id_present:
+    runs-on: ubuntu-latest
+    needs: check_for_updates
+    if: ${{ needs.check_for_updates.outputs.id != "" }}
+    steps:
+      - name: Output
+        run: |
+          echo "id present (something): ${{ needs.check_for_updates.outputs.id }}"
+
+  id_not_present:
+    runs-on: ubuntu-latest
+    needs: check_for_updates
+    if: ${{ needs.check_for_updates.outputs.id == "" }}
+    steps:
+      - name: Output
+        run: |
+          echo "id not present (empty): ${{ needs.check_for_updates.outputs.id }}"
+
+  ignore_update_check:
+    runs-on: ubuntu-latest
+    needs: check_for_updates
+    if: ${{ github.event.inputs.ignore_update_check }}
+    steps:
+      - name: Output
+        run: |
+          echo "update check ignored (true): ${{ github.event.inputs.ignore_update_check }}"
+
+  dont_ignore_update_check:
+    runs-on: ubuntu-latest
+    needs: check_for_updates
+    if: ${{ ! github.event.inputs.ignore_update_check }}
+    steps:
+      - name: Output
+        run: |
+          echo "update check NOT ignored (false): ${{ github.event.inputs.ignore_update_check }}"
