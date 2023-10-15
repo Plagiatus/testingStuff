@@ -36,15 +36,8 @@ jobs:
   update:
     runs-on: ubuntu-latest
     needs: check_for_updates
-    if: ${{ needs.check_for_updates.outputs.id != '' || github.event.inputs.ignore_update_check }}
+    if: ${{ needs.check_for_updates.outputs.id != '' || github.event.inputs.ignore_update_check == 'true' }}
     steps:
-      - name: Test
-        run: | 
-          echo ${{ github.event.inputs.ignore_update_check }}
-          echo ${{ needs.check_for_updates.outputs.id }}
-          echo ${{ needs.check_for_updates.outputs.id == '' }}
-          echo ${{ needs.check_for_updates.outputs.id != '' || github.event.inputs.ignore_update_check }}
-          echo ${{ github.event.inputs.override_version || needs.check_for_updates.outputs.id }}
       - name: Checkout Repo
         uses: actions/checkout@v3
       
@@ -61,7 +54,7 @@ jobs:
           node generator/generator.js ${{ github.event.inputs.override_version || needs.check_for_updates.outputs.id }}
 
       - name: Push Tag
-        if: ${{ needs.check_for_updates.outputs.id != '' || github.event.inputs.ignore_update_check }}
+        if: ${{ github.event.inputs.override_version || needs.check_for_updates.outputs.id }}
         run: |
           version=${{ github.event.inputs.override_version || needs.check_for_updates.outputs.id }}
           git add .
