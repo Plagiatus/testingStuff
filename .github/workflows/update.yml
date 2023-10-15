@@ -44,6 +44,7 @@ jobs:
           echo ${{ needs.check_for_updates.outputs.id }}
           echo ${{ needs.check_for_updates.outputs.id == '' }}
           echo ${{ needs.check_for_updates.outputs.id != '' || github.event.inputs.ignore_update_check }}
+          echo ${{ github.event.inputs.override_version || needs.check_for_updates.outputs.id }}
       - name: Checkout Repo
         uses: actions/checkout@v3
       
