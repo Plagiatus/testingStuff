@@ -35,10 +35,10 @@ jobs:
     if: ${{ needs.check_for_updates.outputs.id != '' || github.event.inputs.ignore_update_check == 'true' }}
     steps:
       - name: Checkout Repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       
-      - name: Setup Git
-        uses: fregante/setup-git-user@v2
+      # - name: Setup Git
+      #   uses: fregante/setup-git-user@v2
 
       - name: Setup NodeJS
         uses: actions/setup-node@v3
@@ -51,9 +51,15 @@ jobs:
 
       - name: Push Tag
         if: ${{ github.event.inputs.override_version || needs.check_for_updates.outputs.id }}
-        run: |
-          version=${{ github.event.inputs.override_version || needs.check_for_updates.outputs.id }}
-          git add .
-          git commit -m $version
-          git tag -a $version -m $version
-          git push --follow-tags
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: ${{ github.event.inputs.override_version || needs.check_for_updates.outputs.id }}
+          tagging_message: ${{ github.event.inputs.override_version || needs.check_for_updates.outputs.id }}
+          push_options: '--follow-tags'
+          commit_author: Plagiatus <${{ secrets.email }}>
+      #   run: |
+      #     version=${{ github.event.inputs.override_version || needs.check_for_updates.outputs.id }}
+      #     git add .
+      #     git commit -m $version
+      #     git tag -a $version -m $version
+      #     git push --follow-tags
