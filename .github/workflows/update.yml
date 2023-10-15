@@ -37,8 +37,8 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v3
       
-      # - name: Setup Git
-      #   uses: fregante/setup-git-user@v1
+      - name: Setup Git
+        uses: fregante/setup-git-user@v2
 
       - name: Setup NodeJS
         uses: actions/setup-node@v3
@@ -53,8 +53,6 @@ jobs:
         if: ${{ github.event.inputs.override_version || needs.check_for_updates.outputs.id }}
         run: |
           version=${{ github.event.inputs.override_version || needs.check_for_updates.outputs.id }}
-          git config --global user.email "${{ secrets.email }}"
-          git config --global user.name "Plagiatus"
           git add .
           git commit -m $version
           git tag -a $version -m $version
