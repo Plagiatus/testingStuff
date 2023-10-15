@@ -38,11 +38,12 @@ jobs:
     needs: check_for_updates
     if: ${{ needs.check_for_updates.outputs.id != '' || github.event.inputs.ignore_update_check }}
     steps:
-      - run: | 
-        echo ${{ github.event.inputs.ignore_update_check }}
-        echo ${{ needs.check_for_updates.outputs.id }}
-        echo ${{ needs.check_for_updates.outputs.id != '' }}
-        echo ${{ needs.check_for_updates.outputs.id != '' || github.event.inputs.ignore_update_check }}
+      - name: Test
+        run: | 
+          echo ${{ github.event.inputs.ignore_update_check }}
+          echo ${{ needs.check_for_updates.outputs.id }}
+          echo ${{ needs.check_for_updates.outputs.id != '' }}
+          echo ${{ needs.check_for_updates.outputs.id != '' || github.event.inputs.ignore_update_check }}
       - name: Checkout Repo
         uses: actions/checkout@v3
       
