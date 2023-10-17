@@ -33,12 +33,12 @@ jobs:
     runs-on: ubuntu-latest
     needs: check_for_updates
     if: ${{ needs.check_for_updates.outputs.id != '' || github.event.inputs.ignore_update_check == 'true' }}
+    outputs:
+      added: ${{ steps.generator.outputs.additions }}
+      deleted: ${{ steps.generator.outputs.deletions }}
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v4
-      
-      # - name: Setup Git
-      #   uses: fregante/setup-git-user@v2
 
       - name: Setup NodeJS
         uses: actions/setup-node@v3
@@ -46,20 +46,37 @@ jobs:
           node-version: 18
 
       - name: Run Generator
+        id: generator
         run: |
-          node generator/generator.js ${{ github.event.inputs.override_version || needs.check_for_updates.outputs.id }}
+          npm i
+          npm start ${{ github.event.inputs.override_version || needs.check_for_updates.outputs.id }}
+          
 
-      - name: Push Tag
-        if: ${{ github.event.inputs.override_version || needs.check_for_updates.outputs.id }}
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: ${{ github.event.inputs.override_version || needs.check_for_updates.outputs.id }}
-          tagging_message: ${{ github.event.inputs.override_version || needs.check_for_updates.outputs.id }}
-          push_options: '--follow-tags'
-          commit_author: Plagiatus <${{ secrets.email }}>
-      #   run: |
-      #     version=${{ github.event.inputs.override_version || needs.check_for_updates.outputs.id }}
-      #     git add .
-      #     git commit -m $version
-      #     git tag -a $version -m $version
-      #     git push --follow-tags
+      # - name: Push Tag
+      #   if: ${{ github.event.inputs.override_version || needs.check_for_updates.outputs.id }}
+      #   uses: stefanzweifel/git-auto-commit-action@v5
+      #   with:
+      #     commit_message: ${{ github.event.inputs.override_version || needs.check_for_updates.outputs.id }}
+      #     tagging_message: ${{ github.event.inputs.override_version || needs.check_for_updates.outputs.id }}
+      #     push_options: '--follow-tags'
+      #     commit_author: Plagiatus <${{ secrets.email }}>
+
+      - name: checkOutput
+        run: |
+          echo ${{ steps.generator.outputs.additions }}
+          echo ${{ steps.generator.outputs.deletions }}
+          echo ${{ steps.generator.outputs.additions.length }}
+          echo ${{ steps.generator.outputs.deletions.length }}
+
+  processResult: # either make a commit & push or, if there are deletions, make a PR instead
+    runs-on: ubuntu-latest
+    needs: update
+    steps:
+      - name: Needs Pull Request
+        if: ${{ needs.update.outputs.deleted.length > 0 }}
+        run: |
+          echo Make pull request
+      - name: Needs Commit & Push
+        if: ${{ needs.update.outputs.deleted.length <= 0 }}
+        run: |
+          echo Normal Commit & push
