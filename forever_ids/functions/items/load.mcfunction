@@ -1254,26 +1254,6 @@ data modify storage forever_ids:data items.id_to_name set value [\
 "minecraft:zombie_spawn_egg", \
 "minecraft:zombie_villager_spawn_egg", \
 "minecraft:zombified_piglin_spawn_egg", \
-"minecraft:angler_pottery_shard", \
-"minecraft:archer_pottery_shard", \
-"minecraft:arms_up_pottery_shard", \
-"minecraft:blade_pottery_shard", \
-"minecraft:brewer_pottery_shard", \
-"minecraft:burn_pottery_shard", \
-"minecraft:danger_pottery_shard", \
-"minecraft:explorer_pottery_shard", \
-"minecraft:friend_pottery_shard", \
-"minecraft:heart_pottery_shard", \
-"minecraft:heartbreak_pottery_shard", \
-"minecraft:howl_pottery_shard", \
-"minecraft:miner_pottery_shard", \
-"minecraft:mourner_pottery_shard", \
-"minecraft:plenty_pottery_shard", \
-"minecraft:prize_pottery_shard", \
-"minecraft:sheaf_pottery_shard", \
-"minecraft:shelter_pottery_shard", \
-"minecraft:skull_pottery_shard", \
-"minecraft:snort_pottery_shard", \
 ]
 
 data modify storage forever_ids:data items.name_to_id set value {\
@@ -2532,24 +2512,4 @@ zombie_horse_spawn_egg: 1251, \
 zombie_spawn_egg: 1252, \
 zombie_villager_spawn_egg: 1253, \
 zombified_piglin_spawn_egg: 1254, \
-angler_pottery_shard: 1255, \
-archer_pottery_shard: 1256, \
-arms_up_pottery_shard: 1257, \
-blade_pottery_shard: 1258, \
-brewer_pottery_shard: 1259, \
-burn_pottery_shard: 1260, \
-danger_pottery_shard: 1261, \
-explorer_pottery_shard: 1262, \
-friend_pottery_shard: 1263, \
-heart_pottery_shard: 1264, \
-heartbreak_pottery_shard: 1265, \
-howl_pottery_shard: 1266, \
-miner_pottery_shard: 1267, \
-mourner_pottery_shard: 1268, \
-plenty_pottery_shard: 1269, \
-prize_pottery_shard: 1270, \
-sheaf_pottery_shard: 1271, \
-shelter_pottery_shard: 1272, \
-skull_pottery_shard: 1273, \
-snort_pottery_shard: 1274, \
 }
