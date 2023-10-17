@@ -54,13 +54,6 @@ jobs:
           
 
       # - name: Push Tag
-      #   if: ${{ github.event.inputs.override_version || needs.check_for_updates.outputs.id }}
-      #   uses: stefanzweifel/git-auto-commit-action@v5
-      #   with:
-      #     commit_message: ${{ github.event.inputs.override_version || needs.check_for_updates.outputs.id }}
-      #     tagging_message: ${{ github.event.inputs.override_version || needs.check_for_updates.outputs.id }}
-      #     push_options: '--follow-tags'
-      #     commit_author: Plagiatus <${{ secrets.email }}>
 
       - name: checkOutput
         run: |
@@ -73,10 +66,17 @@ jobs:
           echo "${{ steps.generator.outputs.deletions != '[]' }}"
 
       - name: Needs Pull Request
-        if: steps.generator.outputs.deletions != '[]'
-        run: |
-          echo Make pull request
+        if: ${{ steps.generator.outputs.deletions != '[]' && (github.event.inputs.override_version || needs.check_for_updates.outputs.id) }}
+        uses: peter-evans/create-pull-request@v5
+        with:
+          commit-message: "${{ (github.event.inputs.override_version || needs.check_for_updates.outputs.id) }} - deletions"
+          branch: "deletions-${{ (github.event.inputs.override_version || needs.check_for_updates.outputs.id) }}"
+
       - name: Needs Commit and Push
-        if: steps.generator.outputs.deletions == '[]'
-        run: |
-          echo Normal Commit and Push
+        if: ${{ steps.generator.outputs.deletions == '[]' && (github.event.inputs.override_version || needs.check_for_updates.outputs.id) }}
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: ${{ github.event.inputs.override_version || needs.check_for_updates.outputs.id }}
+          tagging_message: ${{ github.event.inputs.override_version || needs.check_for_updates.outputs.id }}
+          push_options: '--follow-tags'
+          commit_author: Plagiatus <${{ secrets.email }}>
