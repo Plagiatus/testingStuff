@@ -28,12 +28,12 @@ data modify storage forever_ids:data items.id_to_name set value [\
 "minecraft:andesite_slab", \
 "minecraft:andesite_stairs", \
 "minecraft:andesite_wall", \
-"minecraft:angler_pottery_sherd", \
+"", \
 "minecraft:anvil", \
 "minecraft:apple", \
-"minecraft:archer_pottery_sherd", \
+"", \
 "minecraft:armor_stand", \
-"minecraft:arms_up_pottery_sherd", \
+"", \
 "minecraft:arrow", \
 "minecraft:axolotl_bucket", \
 "minecraft:axolotl_spawn_egg", \
@@ -108,7 +108,7 @@ data modify storage forever_ids:data items.id_to_name set value [\
 "minecraft:blackstone_slab", \
 "minecraft:blackstone_stairs", \
 "minecraft:blackstone_wall", \
-"minecraft:blade_pottery_sherd", \
+"", \
 "minecraft:blast_furnace", \
 "minecraft:blaze_powder", \
 "minecraft:blaze_rod", \
@@ -139,7 +139,7 @@ data modify storage forever_ids:data items.id_to_name set value [\
 "minecraft:brain_coral_block", \
 "minecraft:brain_coral_fan", \
 "minecraft:bread", \
-"minecraft:brewer_pottery_sherd", \
+"", \
 "minecraft:brewing_stand", \
 "minecraft:brick", \
 "minecraft:brick_slab", \
@@ -168,11 +168,11 @@ data modify storage forever_ids:data items.id_to_name set value [\
 "minecraft:bucket", \
 "minecraft:budding_amethyst", \
 "minecraft:bundle", \
-"minecraft:burn_pottery_sherd", \
+"", \
 "minecraft:cactus", \
 "minecraft:cake", \
 "minecraft:calcite", \
-"minecraft:calibrated_sculk_sensor", \
+"", \
 "minecraft:camel_spawn_egg", \
 "minecraft:campfire", \
 "minecraft:candle", \
@@ -312,7 +312,7 @@ data modify storage forever_ids:data items.id_to_name set value [\
 "minecraft:cyan_wool", \
 "minecraft:damaged_anvil", \
 "minecraft:dandelion", \
-"minecraft:danger_pottery_sherd", \
+"", \
 "minecraft:dark_oak_boat", \
 "minecraft:dark_oak_button", \
 "minecraft:dark_oak_chest_boat", \
@@ -428,7 +428,7 @@ data modify storage forever_ids:data items.id_to_name set value [\
 "minecraft:endermite_spawn_egg", \
 "minecraft:evoker_spawn_egg", \
 "minecraft:experience_bottle", \
-"minecraft:explorer_pottery_sherd", \
+"", \
 "minecraft:exposed_copper", \
 "minecraft:exposed_cut_copper", \
 "minecraft:exposed_cut_copper_slab", \
@@ -454,7 +454,7 @@ data modify storage forever_ids:data items.id_to_name set value [\
 "minecraft:flowering_azalea", \
 "minecraft:flowering_azalea_leaves", \
 "minecraft:fox_spawn_egg", \
-"minecraft:friend_pottery_sherd", \
+"", \
 "minecraft:frog_spawn_egg", \
 "minecraft:frogspawn", \
 "minecraft:furnace", \
@@ -531,8 +531,8 @@ data modify storage forever_ids:data items.id_to_name set value [\
 "minecraft:hanging_roots", \
 "minecraft:hay_block", \
 "minecraft:heart_of_the_sea", \
-"minecraft:heart_pottery_sherd", \
-"minecraft:heartbreak_pottery_sherd", \
+"", \
+"", \
 "minecraft:heavy_weighted_pressure_plate", \
 "minecraft:hoglin_spawn_egg", \
 "minecraft:honey_block", \
@@ -545,8 +545,8 @@ data modify storage forever_ids:data items.id_to_name set value [\
 "minecraft:horn_coral_block", \
 "minecraft:horn_coral_fan", \
 "minecraft:horse_spawn_egg", \
-"minecraft:host_armor_trim_smithing_template", \
-"minecraft:howl_pottery_sherd", \
+"", \
+"", \
 "minecraft:husk_spawn_egg", \
 "minecraft:ice", \
 "minecraft:infested_chiseled_stone_bricks", \
@@ -705,7 +705,7 @@ data modify storage forever_ids:data items.id_to_name set value [\
 "minecraft:melon_slice", \
 "minecraft:milk_bucket", \
 "minecraft:minecart", \
-"minecraft:miner_pottery_sherd", \
+"", \
 "minecraft:mojang_banner_pattern", \
 "minecraft:mooshroom_spawn_egg", \
 "minecraft:moss_block", \
@@ -718,7 +718,7 @@ data modify storage forever_ids:data items.id_to_name set value [\
 "minecraft:mossy_stone_brick_stairs", \
 "minecraft:mossy_stone_brick_wall", \
 "minecraft:mossy_stone_bricks", \
-"minecraft:mourner_pottery_sherd", \
+"", \
 "minecraft:mud", \
 "minecraft:mud_brick_slab", \
 "minecraft:mud_brick_stairs", \
@@ -739,7 +739,7 @@ data modify storage forever_ids:data items.id_to_name set value [\
 "minecraft:music_disc_mellohi", \
 "minecraft:music_disc_otherside", \
 "minecraft:music_disc_pigstep", \
-"minecraft:music_disc_relic", \
+"", \
 "minecraft:music_disc_stal", \
 "minecraft:music_disc_strad", \
 "minecraft:music_disc_wait", \
@@ -848,10 +848,10 @@ data modify storage forever_ids:data items.id_to_name set value [\
 "minecraft:pink_tulip", \
 "minecraft:pink_wool", \
 "minecraft:piston", \
-"minecraft:pitcher_plant", \
-"minecraft:pitcher_pod", \
+"", \
+"", \
 "minecraft:player_head", \
-"minecraft:plenty_pottery_sherd", \
+"", \
 "minecraft:podzol", \
 "minecraft:pointed_dripstone", \
 "minecraft:poisonous_potato", \
@@ -896,7 +896,7 @@ data modify storage forever_ids:data items.id_to_name set value [\
 "minecraft:prismarine_slab", \
 "minecraft:prismarine_stairs", \
 "minecraft:prismarine_wall", \
-"minecraft:prize_pottery_sherd", \
+"", \
 "minecraft:pufferfish", \
 "minecraft:pufferfish_bucket", \
 "minecraft:pufferfish_spawn_egg", \
@@ -932,7 +932,7 @@ data modify storage forever_ids:data items.id_to_name set value [\
 "minecraft:rabbit_spawn_egg", \
 "minecraft:rabbit_stew", \
 "minecraft:rail", \
-"minecraft:raiser_armor_trim_smithing_template", \
+"", \
 "minecraft:ravager_spawn_egg", \
 "minecraft:raw_copper", \
 "minecraft:raw_copper_block", \
@@ -999,23 +999,23 @@ data modify storage forever_ids:data items.id_to_name set value [\
 "minecraft:sea_pickle", \
 "minecraft:seagrass", \
 "minecraft:sentry_armor_trim_smithing_template", \
-"minecraft:shaper_armor_trim_smithing_template", \
-"minecraft:sheaf_pottery_sherd", \
+"", \
+"", \
 "minecraft:shears", \
 "minecraft:sheep_spawn_egg", \
-"minecraft:shelter_pottery_sherd", \
+"", \
 "minecraft:shield", \
 "minecraft:shroomlight", \
 "minecraft:shulker_box", \
 "minecraft:shulker_shell", \
 "minecraft:shulker_spawn_egg", \
-"minecraft:silence_armor_trim_smithing_template", \
+"", \
 "minecraft:silverfish_spawn_egg", \
 "minecraft:skeleton_horse_spawn_egg", \
 "minecraft:skeleton_skull", \
 "minecraft:skeleton_spawn_egg", \
 "minecraft:skull_banner_pattern", \
-"minecraft:skull_pottery_sherd", \
+"", \
 "minecraft:slime_ball", \
 "minecraft:slime_block", \
 "minecraft:slime_spawn_egg", \
@@ -1035,9 +1035,9 @@ data modify storage forever_ids:data items.id_to_name set value [\
 "minecraft:smooth_sandstone_stairs", \
 "minecraft:smooth_stone", \
 "minecraft:smooth_stone_slab", \
-"minecraft:sniffer_egg", \
+"", \
 "minecraft:sniffer_spawn_egg", \
-"minecraft:snort_pottery_sherd", \
+"", \
 "minecraft:snout_armor_trim_smithing_template", \
 "minecraft:snow", \
 "minecraft:snow_block", \
@@ -1121,7 +1121,7 @@ data modify storage forever_ids:data items.id_to_name set value [\
 "minecraft:sugar", \
 "minecraft:sugar_cane", \
 "minecraft:sunflower", \
-"minecraft:suspicious_gravel", \
+"", \
 "minecraft:suspicious_sand", \
 "minecraft:suspicious_stew", \
 "minecraft:sweet_berries", \
@@ -1198,7 +1198,7 @@ data modify storage forever_ids:data items.id_to_name set value [\
 "minecraft:waxed_weathered_cut_copper", \
 "minecraft:waxed_weathered_cut_copper_slab", \
 "minecraft:waxed_weathered_cut_copper_stairs", \
-"minecraft:wayfinder_armor_trim_smithing_template", \
+"", \
 "minecraft:weathered_copper", \
 "minecraft:weathered_cut_copper", \
 "minecraft:weathered_cut_copper_slab", \
@@ -1254,6 +1254,10 @@ data modify storage forever_ids:data items.id_to_name set value [\
 "minecraft:zombie_spawn_egg", \
 "minecraft:zombie_villager_spawn_egg", \
 "minecraft:zombified_piglin_spawn_egg", \
+"minecraft:pottery_shard_archer", \
+"minecraft:pottery_shard_arms_up", \
+"minecraft:pottery_shard_prize", \
+"minecraft:pottery_shard_skull", \
 ]
 
 data modify storage forever_ids:data items.name_to_id set value {\
@@ -1286,12 +1290,9 @@ andesite: 25, \
 andesite_slab: 26, \
 andesite_stairs: 27, \
 andesite_wall: 28, \
-angler_pottery_sherd: 29, \
 anvil: 30, \
 apple: 31, \
-archer_pottery_sherd: 32, \
 armor_stand: 33, \
-arms_up_pottery_sherd: 34, \
 arrow: 35, \
 axolotl_bucket: 36, \
 axolotl_spawn_egg: 37, \
@@ -1366,7 +1367,6 @@ blackstone: 105, \
 blackstone_slab: 106, \
 blackstone_stairs: 107, \
 blackstone_wall: 108, \
-blade_pottery_sherd: 109, \
 blast_furnace: 110, \
 blaze_powder: 111, \
 blaze_rod: 112, \
@@ -1397,7 +1397,6 @@ brain_coral: 136, \
 brain_coral_block: 137, \
 brain_coral_fan: 138, \
 bread: 139, \
-brewer_pottery_sherd: 140, \
 brewing_stand: 141, \
 brick: 142, \
 brick_slab: 143, \
@@ -1426,11 +1425,9 @@ bubble_coral_fan: 165, \
 bucket: 166, \
 budding_amethyst: 167, \
 bundle: 168, \
-burn_pottery_sherd: 169, \
 cactus: 170, \
 cake: 171, \
 calcite: 172, \
-calibrated_sculk_sensor: 173, \
 camel_spawn_egg: 174, \
 campfire: 175, \
 candle: 176, \
@@ -1570,7 +1567,6 @@ cyan_terracotta: 309, \
 cyan_wool: 310, \
 damaged_anvil: 311, \
 dandelion: 312, \
-danger_pottery_sherd: 313, \
 dark_oak_boat: 314, \
 dark_oak_button: 315, \
 dark_oak_chest_boat: 316, \
@@ -1686,7 +1682,6 @@ enderman_spawn_egg: 425, \
 endermite_spawn_egg: 426, \
 evoker_spawn_egg: 427, \
 experience_bottle: 428, \
-explorer_pottery_sherd: 429, \
 exposed_copper: 430, \
 exposed_cut_copper: 431, \
 exposed_cut_copper_slab: 432, \
@@ -1712,7 +1707,6 @@ flower_pot: 451, \
 flowering_azalea: 452, \
 flowering_azalea_leaves: 453, \
 fox_spawn_egg: 454, \
-friend_pottery_sherd: 455, \
 frog_spawn_egg: 456, \
 frogspawn: 457, \
 furnace: 458, \
@@ -1789,8 +1783,6 @@ gunpowder: 528, \
 hanging_roots: 529, \
 hay_block: 530, \
 heart_of_the_sea: 531, \
-heart_pottery_sherd: 532, \
-heartbreak_pottery_sherd: 533, \
 heavy_weighted_pressure_plate: 534, \
 hoglin_spawn_egg: 535, \
 honey_block: 536, \
@@ -1803,8 +1795,6 @@ horn_coral: 542, \
 horn_coral_block: 543, \
 horn_coral_fan: 544, \
 horse_spawn_egg: 545, \
-host_armor_trim_smithing_template: 546, \
-howl_pottery_sherd: 547, \
 husk_spawn_egg: 548, \
 ice: 549, \
 infested_chiseled_stone_bricks: 550, \
@@ -1963,7 +1953,6 @@ melon_seeds: 702, \
 melon_slice: 703, \
 milk_bucket: 704, \
 minecart: 705, \
-miner_pottery_sherd: 706, \
 mojang_banner_pattern: 707, \
 mooshroom_spawn_egg: 708, \
 moss_block: 709, \
@@ -1976,7 +1965,6 @@ mossy_stone_brick_slab: 715, \
 mossy_stone_brick_stairs: 716, \
 mossy_stone_brick_wall: 717, \
 mossy_stone_bricks: 718, \
-mourner_pottery_sherd: 719, \
 mud: 720, \
 mud_brick_slab: 721, \
 mud_brick_stairs: 722, \
@@ -1997,7 +1985,6 @@ music_disc_mall: 736, \
 music_disc_mellohi: 737, \
 music_disc_otherside: 738, \
 music_disc_pigstep: 739, \
-music_disc_relic: 740, \
 music_disc_stal: 741, \
 music_disc_strad: 742, \
 music_disc_wait: 743, \
@@ -2106,10 +2093,7 @@ pink_terracotta: 845, \
 pink_tulip: 846, \
 pink_wool: 847, \
 piston: 848, \
-pitcher_plant: 849, \
-pitcher_pod: 850, \
 player_head: 851, \
-plenty_pottery_sherd: 852, \
 podzol: 853, \
 pointed_dripstone: 854, \
 poisonous_potato: 855, \
@@ -2154,7 +2138,6 @@ prismarine_shard: 893, \
 prismarine_slab: 894, \
 prismarine_stairs: 895, \
 prismarine_wall: 896, \
-prize_pottery_sherd: 897, \
 pufferfish: 898, \
 pufferfish_bucket: 899, \
 pufferfish_spawn_egg: 900, \
@@ -2190,7 +2173,6 @@ rabbit_hide: 929, \
 rabbit_spawn_egg: 930, \
 rabbit_stew: 931, \
 rail: 932, \
-raiser_armor_trim_smithing_template: 933, \
 ravager_spawn_egg: 934, \
 raw_copper: 935, \
 raw_copper_block: 936, \
@@ -2257,23 +2239,18 @@ sea_lantern: 996, \
 sea_pickle: 997, \
 seagrass: 998, \
 sentry_armor_trim_smithing_template: 999, \
-shaper_armor_trim_smithing_template: 1000, \
-sheaf_pottery_sherd: 1001, \
 shears: 1002, \
 sheep_spawn_egg: 1003, \
-shelter_pottery_sherd: 1004, \
 shield: 1005, \
 shroomlight: 1006, \
 shulker_box: 1007, \
 shulker_shell: 1008, \
 shulker_spawn_egg: 1009, \
-silence_armor_trim_smithing_template: 1010, \
 silverfish_spawn_egg: 1011, \
 skeleton_horse_spawn_egg: 1012, \
 skeleton_skull: 1013, \
 skeleton_spawn_egg: 1014, \
 skull_banner_pattern: 1015, \
-skull_pottery_sherd: 1016, \
 slime_ball: 1017, \
 slime_block: 1018, \
 slime_spawn_egg: 1019, \
@@ -2293,9 +2270,7 @@ smooth_sandstone_slab: 1032, \
 smooth_sandstone_stairs: 1033, \
 smooth_stone: 1034, \
 smooth_stone_slab: 1035, \
-sniffer_egg: 1036, \
 sniffer_spawn_egg: 1037, \
-snort_pottery_sherd: 1038, \
 snout_armor_trim_smithing_template: 1039, \
 snow: 1040, \
 snow_block: 1041, \
@@ -2379,7 +2354,6 @@ structure_void: 1118, \
 sugar: 1119, \
 sugar_cane: 1120, \
 sunflower: 1121, \
-suspicious_gravel: 1122, \
 suspicious_sand: 1123, \
 suspicious_stew: 1124, \
 sweet_berries: 1125, \
@@ -2456,7 +2430,6 @@ waxed_weathered_copper: 1195, \
 waxed_weathered_cut_copper: 1196, \
 waxed_weathered_cut_copper_slab: 1197, \
 waxed_weathered_cut_copper_stairs: 1198, \
-wayfinder_armor_trim_smithing_template: 1199, \
 weathered_copper: 1200, \
 weathered_cut_copper: 1201, \
 weathered_cut_copper_slab: 1202, \
@@ -2512,4 +2485,8 @@ zombie_horse_spawn_egg: 1251, \
 zombie_spawn_egg: 1252, \
 zombie_villager_spawn_egg: 1253, \
 zombified_piglin_spawn_egg: 1254, \
+pottery_shard_archer: 1255, \
+pottery_shard_arms_up: 1256, \
+pottery_shard_prize: 1257, \
+pottery_shard_skull: 1258, \
 }

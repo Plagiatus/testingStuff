@@ -116,8 +116,14 @@
     "id": 28
   },
   {
-    "name": "minecraft:angler_pottery_sherd",
-    "id": 29
+    "name": "",
+    "id": 29,
+    "previous": [
+      {
+        "name": "minecraft:angler_pottery_sherd",
+        "removed_in": "1.19.4"
+      }
+    ]
   },
   {
     "name": "minecraft:anvil",
@@ -128,16 +134,28 @@
     "id": 31
   },
   {
-    "name": "minecraft:archer_pottery_sherd",
-    "id": 32
+    "name": "",
+    "id": 32,
+    "previous": [
+      {
+        "name": "minecraft:archer_pottery_sherd",
+        "removed_in": "1.19.4"
+      }
+    ]
   },
   {
     "name": "minecraft:armor_stand",
     "id": 33
   },
   {
-    "name": "minecraft:arms_up_pottery_sherd",
-    "id": 34
+    "name": "",
+    "id": 34,
+    "previous": [
+      {
+        "name": "minecraft:arms_up_pottery_sherd",
+        "removed_in": "1.19.4"
+      }
+    ]
   },
   {
     "name": "minecraft:arrow",
@@ -436,8 +454,14 @@
     "id": 108
   },
   {
-    "name": "minecraft:blade_pottery_sherd",
-    "id": 109
+    "name": "",
+    "id": 109,
+    "previous": [
+      {
+        "name": "minecraft:blade_pottery_sherd",
+        "removed_in": "1.19.4"
+      }
+    ]
   },
   {
     "name": "minecraft:blast_furnace",
@@ -560,8 +584,14 @@
     "id": 139
   },
   {
-    "name": "minecraft:brewer_pottery_sherd",
-    "id": 140
+    "name": "",
+    "id": 140,
+    "previous": [
+      {
+        "name": "minecraft:brewer_pottery_sherd",
+        "removed_in": "1.19.4"
+      }
+    ]
   },
   {
     "name": "minecraft:brewing_stand",
@@ -676,8 +706,14 @@
     "id": 168
   },
   {
-    "name": "minecraft:burn_pottery_sherd",
-    "id": 169
+    "name": "",
+    "id": 169,
+    "previous": [
+      {
+        "name": "minecraft:burn_pottery_sherd",
+        "removed_in": "1.19.4"
+      }
+    ]
   },
   {
     "name": "minecraft:cactus",
@@ -692,8 +728,14 @@
     "id": 172
   },
   {
-    "name": "minecraft:calibrated_sculk_sensor",
-    "id": 173
+    "name": "",
+    "id": 173,
+    "previous": [
+      {
+        "name": "minecraft:calibrated_sculk_sensor",
+        "removed_in": "1.19.4"
+      }
+    ]
   },
   {
     "name": "minecraft:camel_spawn_egg",
@@ -1252,8 +1294,14 @@
     "id": 312
   },
   {
-    "name": "minecraft:danger_pottery_sherd",
-    "id": 313
+    "name": "",
+    "id": 313,
+    "previous": [
+      {
+        "name": "minecraft:danger_pottery_sherd",
+        "removed_in": "1.19.4"
+      }
+    ]
   },
   {
     "name": "minecraft:dark_oak_boat",
@@ -1716,8 +1764,14 @@
     "id": 428
   },
   {
-    "name": "minecraft:explorer_pottery_sherd",
-    "id": 429
+    "name": "",
+    "id": 429,
+    "previous": [
+      {
+        "name": "minecraft:explorer_pottery_sherd",
+        "removed_in": "1.19.4"
+      }
+    ]
   },
   {
     "name": "minecraft:exposed_copper",
@@ -1820,8 +1874,14 @@
     "id": 454
   },
   {
-    "name": "minecraft:friend_pottery_sherd",
-    "id": 455
+    "name": "",
+    "id": 455,
+    "previous": [
+      {
+        "name": "minecraft:friend_pottery_sherd",
+        "removed_in": "1.19.4"
+      }
+    ]
   },
   {
     "name": "minecraft:frog_spawn_egg",
@@ -2128,12 +2188,24 @@
     "id": 531
   },
   {
-    "name": "minecraft:heart_pottery_sherd",
-    "id": 532
+    "name": "",
+    "id": 532,
+    "previous": [
+      {
+        "name": "minecraft:heart_pottery_sherd",
+        "removed_in": "1.19.4"
+      }
+    ]
   },
   {
-    "name": "minecraft:heartbreak_pottery_sherd",
-    "id": 533
+    "name": "",
+    "id": 533,
+    "previous": [
+      {
+        "name": "minecraft:heartbreak_pottery_sherd",
+        "removed_in": "1.19.4"
+      }
+    ]
   },
   {
     "name": "minecraft:heavy_weighted_pressure_plate",
@@ -2184,12 +2256,24 @@
     "id": 545
   },
   {
-    "name": "minecraft:host_armor_trim_smithing_template",
-    "id": 546
+    "name": "",
+    "id": 546,
+    "previous": [
+      {
+        "name": "minecraft:host_armor_trim_smithing_template",
+        "removed_in": "1.19.4"
+      }
+    ]
   },
   {
-    "name": "minecraft:howl_pottery_sherd",
-    "id": 547
+    "name": "",
+    "id": 547,
+    "previous": [
+      {
+        "name": "minecraft:howl_pottery_sherd",
+        "removed_in": "1.19.4"
+      }
+    ]
   },
   {
     "name": "minecraft:husk_spawn_egg",
@@ -2824,8 +2908,14 @@
     "id": 705
   },
   {
-    "name": "minecraft:miner_pottery_sherd",
-    "id": 706
+    "name": "",
+    "id": 706,
+    "previous": [
+      {
+        "name": "minecraft:miner_pottery_sherd",
+        "removed_in": "1.19.4"
+      }
+    ]
   },
   {
     "name": "minecraft:mojang_banner_pattern",
@@ -2876,8 +2966,14 @@
     "id": 718
   },
   {
-    "name": "minecraft:mourner_pottery_sherd",
-    "id": 719
+    "name": "",
+    "id": 719,
+    "previous": [
+      {
+        "name": "minecraft:mourner_pottery_sherd",
+        "removed_in": "1.19.4"
+      }
+    ]
   },
   {
     "name": "minecraft:mud",
@@ -2960,8 +3056,14 @@
     "id": 739
   },
   {
-    "name": "minecraft:music_disc_relic",
-    "id": 740
+    "name": "",
+    "id": 740,
+    "previous": [
+      {
+        "name": "minecraft:music_disc_relic",
+        "removed_in": "1.19.4"
+      }
+    ]
   },
   {
     "name": "minecraft:music_disc_stal",
@@ -3396,20 +3498,38 @@
     "id": 848
   },
   {
-    "name": "minecraft:pitcher_plant",
-    "id": 849
+    "name": "",
+    "id": 849,
+    "previous": [
+      {
+        "name": "minecraft:pitcher_plant",
+        "removed_in": "1.19.4"
+      }
+    ]
   },
   {
-    "name": "minecraft:pitcher_pod",
-    "id": 850
+    "name": "",
+    "id": 850,
+    "previous": [
+      {
+        "name": "minecraft:pitcher_pod",
+        "removed_in": "1.19.4"
+      }
+    ]
   },
   {
     "name": "minecraft:player_head",
     "id": 851
   },
   {
-    "name": "minecraft:plenty_pottery_sherd",
-    "id": 852
+    "name": "",
+    "id": 852,
+    "previous": [
+      {
+        "name": "minecraft:plenty_pottery_sherd",
+        "removed_in": "1.19.4"
+      }
+    ]
   },
   {
     "name": "minecraft:podzol",
@@ -3588,8 +3708,14 @@
     "id": 896
   },
   {
-    "name": "minecraft:prize_pottery_sherd",
-    "id": 897
+    "name": "",
+    "id": 897,
+    "previous": [
+      {
+        "name": "minecraft:prize_pottery_sherd",
+        "removed_in": "1.19.4"
+      }
+    ]
   },
   {
     "name": "minecraft:pufferfish",
@@ -3732,8 +3858,14 @@
     "id": 932
   },
   {
-    "name": "minecraft:raiser_armor_trim_smithing_template",
-    "id": 933
+    "name": "",
+    "id": 933,
+    "previous": [
+      {
+        "name": "minecraft:raiser_armor_trim_smithing_template",
+        "removed_in": "1.19.4"
+      }
+    ]
   },
   {
     "name": "minecraft:ravager_spawn_egg",
@@ -4000,12 +4132,24 @@
     "id": 999
   },
   {
-    "name": "minecraft:shaper_armor_trim_smithing_template",
-    "id": 1000
+    "name": "",
+    "id": 1000,
+    "previous": [
+      {
+        "name": "minecraft:shaper_armor_trim_smithing_template",
+        "removed_in": "1.19.4"
+      }
+    ]
   },
   {
-    "name": "minecraft:sheaf_pottery_sherd",
-    "id": 1001
+    "name": "",
+    "id": 1001,
+    "previous": [
+      {
+        "name": "minecraft:sheaf_pottery_sherd",
+        "removed_in": "1.19.4"
+      }
+    ]
   },
   {
     "name": "minecraft:shears",
@@ -4016,8 +4160,14 @@
     "id": 1003
   },
   {
-    "name": "minecraft:shelter_pottery_sherd",
-    "id": 1004
+    "name": "",
+    "id": 1004,
+    "previous": [
+      {
+        "name": "minecraft:shelter_pottery_sherd",
+        "removed_in": "1.19.4"
+      }
+    ]
   },
   {
     "name": "minecraft:shield",
@@ -4040,8 +4190,14 @@
     "id": 1009
   },
   {
-    "name": "minecraft:silence_armor_trim_smithing_template",
-    "id": 1010
+    "name": "",
+    "id": 1010,
+    "previous": [
+      {
+        "name": "minecraft:silence_armor_trim_smithing_template",
+        "removed_in": "1.19.4"
+      }
+    ]
   },
   {
     "name": "minecraft:silverfish_spawn_egg",
@@ -4064,8 +4220,14 @@
     "id": 1015
   },
   {
-    "name": "minecraft:skull_pottery_sherd",
-    "id": 1016
+    "name": "",
+    "id": 1016,
+    "previous": [
+      {
+        "name": "minecraft:skull_pottery_sherd",
+        "removed_in": "1.19.4"
+      }
+    ]
   },
   {
     "name": "minecraft:slime_ball",
@@ -4144,16 +4306,28 @@
     "id": 1035
   },
   {
-    "name": "minecraft:sniffer_egg",
-    "id": 1036
+    "name": "",
+    "id": 1036,
+    "previous": [
+      {
+        "name": "minecraft:sniffer_egg",
+        "removed_in": "1.19.4"
+      }
+    ]
   },
   {
     "name": "minecraft:sniffer_spawn_egg",
     "id": 1037
   },
   {
-    "name": "minecraft:snort_pottery_sherd",
-    "id": 1038
+    "name": "",
+    "id": 1038,
+    "previous": [
+      {
+        "name": "minecraft:snort_pottery_sherd",
+        "removed_in": "1.19.4"
+      }
+    ]
   },
   {
     "name": "minecraft:snout_armor_trim_smithing_template",
@@ -4488,8 +4662,14 @@
     "id": 1121
   },
   {
-    "name": "minecraft:suspicious_gravel",
-    "id": 1122
+    "name": "",
+    "id": 1122,
+    "previous": [
+      {
+        "name": "minecraft:suspicious_gravel",
+        "removed_in": "1.19.4"
+      }
+    ]
   },
   {
     "name": "minecraft:suspicious_sand",
@@ -4796,8 +4976,14 @@
     "id": 1198
   },
   {
-    "name": "minecraft:wayfinder_armor_trim_smithing_template",
-    "id": 1199
+    "name": "",
+    "id": 1199,
+    "previous": [
+      {
+        "name": "minecraft:wayfinder_armor_trim_smithing_template",
+        "removed_in": "1.19.4"
+      }
+    ]
   },
   {
     "name": "minecraft:weathered_copper",
@@ -5018,5 +5204,21 @@
   {
     "name": "minecraft:zombified_piglin_spawn_egg",
     "id": 1254
+  },
+  {
+    "name": "minecraft:pottery_shard_archer",
+    "id": 1255
+  },
+  {
+    "name": "minecraft:pottery_shard_arms_up",
+    "id": 1256
+  },
+  {
+    "name": "minecraft:pottery_shard_prize",
+    "id": 1257
+  },
+  {
+    "name": "minecraft:pottery_shard_skull",
+    "id": 1258
   }
 ]

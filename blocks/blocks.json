@@ -604,8 +604,14 @@
     "id": 150
   },
   {
-    "name": "minecraft:calibrated_sculk_sensor",
-    "id": 151
+    "name": "",
+    "id": 151,
+    "previous": [
+      {
+        "name": "minecraft:calibrated_sculk_sensor",
+        "removed_in": "1.19.4"
+      }
+    ]
   },
   {
     "name": "minecraft:campfire",
@@ -2612,12 +2618,24 @@
     "id": 652
   },
   {
-    "name": "minecraft:pitcher_crop",
-    "id": 653
+    "name": "",
+    "id": 653,
+    "previous": [
+      {
+        "name": "minecraft:pitcher_crop",
+        "removed_in": "1.19.4"
+      }
+    ]
   },
   {
-    "name": "minecraft:pitcher_plant",
-    "id": 654
+    "name": "",
+    "id": 654,
+    "previous": [
+      {
+        "name": "minecraft:pitcher_plant",
+        "removed_in": "1.19.4"
+      }
+    ]
   },
   {
     "name": "minecraft:player_head",
@@ -3324,8 +3342,14 @@
     "id": 830
   },
   {
-    "name": "minecraft:sniffer_egg",
-    "id": 831
+    "name": "",
+    "id": 831,
+    "previous": [
+      {
+        "name": "minecraft:sniffer_egg",
+        "removed_in": "1.19.4"
+      }
+    ]
   },
   {
     "name": "minecraft:snow",
@@ -3588,8 +3612,14 @@
     "id": 896
   },
   {
-    "name": "minecraft:suspicious_gravel",
-    "id": 897
+    "name": "",
+    "id": 897,
+    "previous": [
+      {
+        "name": "minecraft:suspicious_gravel",
+        "removed_in": "1.19.4"
+      }
+    ]
   },
   {
     "name": "minecraft:suspicious_sand",

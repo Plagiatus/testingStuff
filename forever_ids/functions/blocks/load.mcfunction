@@ -150,7 +150,7 @@ data modify storage forever_ids:data blocks.id_to_name set value [\
 "minecraft:cactus", \
 "minecraft:cake", \
 "minecraft:calcite", \
-"minecraft:calibrated_sculk_sensor", \
+"", \
 "minecraft:campfire", \
 "minecraft:candle", \
 "minecraft:candle_cake", \
@@ -652,8 +652,8 @@ data modify storage forever_ids:data blocks.id_to_name set value [\
 "minecraft:pink_wool", \
 "minecraft:piston", \
 "minecraft:piston_head", \
-"minecraft:pitcher_crop", \
-"minecraft:pitcher_plant", \
+"", \
+"", \
 "minecraft:player_head", \
 "minecraft:player_wall_head", \
 "minecraft:podzol", \
@@ -830,7 +830,7 @@ data modify storage forever_ids:data blocks.id_to_name set value [\
 "minecraft:smooth_sandstone_stairs", \
 "minecraft:smooth_stone", \
 "minecraft:smooth_stone_slab", \
-"minecraft:sniffer_egg", \
+"", \
 "minecraft:snow", \
 "minecraft:snow_block", \
 "minecraft:soul_campfire", \
@@ -896,7 +896,7 @@ data modify storage forever_ids:data blocks.id_to_name set value [\
 "minecraft:structure_void", \
 "minecraft:sugar_cane", \
 "minecraft:sunflower", \
-"minecraft:suspicious_gravel", \
+"", \
 "minecraft:suspicious_sand", \
 "minecraft:sweet_berry_bush", \
 "minecraft:tall_grass", \
@@ -1156,7 +1156,6 @@ budding_amethyst: 147, \
 cactus: 148, \
 cake: 149, \
 calcite: 150, \
-calibrated_sculk_sensor: 151, \
 campfire: 152, \
 candle: 153, \
 candle_cake: 154, \
@@ -1658,8 +1657,6 @@ pink_wall_banner: 649, \
 pink_wool: 650, \
 piston: 651, \
 piston_head: 652, \
-pitcher_crop: 653, \
-pitcher_plant: 654, \
 player_head: 655, \
 player_wall_head: 656, \
 podzol: 657, \
@@ -1836,7 +1833,6 @@ smooth_sandstone_slab: 827, \
 smooth_sandstone_stairs: 828, \
 smooth_stone: 829, \
 smooth_stone_slab: 830, \
-sniffer_egg: 831, \
 snow: 832, \
 snow_block: 833, \
 soul_campfire: 834, \
@@ -1902,7 +1898,6 @@ structure_block: 893, \
 structure_void: 894, \
 sugar_cane: 895, \
 sunflower: 896, \
-suspicious_gravel: 897, \
 suspicious_sand: 898, \
 sweet_berry_bush: 899, \
 tall_grass: 900, \
