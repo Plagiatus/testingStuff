@@ -73,10 +73,10 @@ jobs:
           echo "${{ steps.generator.outputs.deletions != '[]' }}"
 
       - name: Needs Pull Request
-        if: steps.generator.outputs.deletions[0] != null
+        if: steps.generator.outputs.deletions != '[]'
         run: |
           echo Make pull request
       - name: Needs Commit and Push
-        if: steps.generator.outputs.deletions[0] == null
+        if: steps.generator.outputs.deletions == '[]'
         run: |
           echo Normal Commit and Push

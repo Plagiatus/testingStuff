@@ -58,8 +58,8 @@ async function run() {
     console.groupEnd();
     
     console.group("Writing Output")
-    core.setOutput("additions", output.additions);
-    core.setOutput("deletions", output.deletions);
+    core.setOutput("additions", JSON.stringify(output.additions));
+    core.setOutput("deletions", JSON.stringify(output.deletions));
     console.groupEnd();
     
     console.log("Done.");
