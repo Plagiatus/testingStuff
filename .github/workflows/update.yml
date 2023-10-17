@@ -64,10 +64,10 @@ jobs:
 
       - name: checkOutput
         run: |
-          echo ${{ steps.generator.outputs.additions }}
-          echo ${{ steps.generator.outputs.deletions }}
-          echo ${{ steps.generator.outputs.additions.length }}
-          echo ${{ steps.generator.outputs.deletions.length }}
+          echo "${{ steps.generator.outputs.additions }}"
+          echo "${{ steps.generator.outputs.deletions }}"
+          echo "${{ steps.generator.outputs.additions.length }}"
+          echo "${{ steps.generator.outputs.deletions.length }}"
 
   processResult: # either make a commit & push or, if there are deletions, make a PR instead
     runs-on: ubuntu-latest
