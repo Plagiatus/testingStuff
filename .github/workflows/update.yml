@@ -51,19 +51,6 @@ jobs:
           cd generator
           npm i
           npm start ${{ github.event.inputs.override_version || needs.check_for_updates.outputs.id }}
-          
-
-      # - name: Push Tag
-
-      - name: checkOutput
-        run: |
-          echo "${{ steps.generator.outputs.additions }}"
-          echo "${{ steps.generator.outputs.deletions }}"
-          echo "${{ steps.generator.outputs.deletions[0] }}"
-          echo "${{ steps.generator.outputs.deletions[0] == null }}"
-          echo "${{ steps.generator.outputs.deletions[0] != null }}"
-          echo "${{ steps.generator.outputs.deletions == '[]' }}"
-          echo "${{ steps.generator.outputs.deletions != '[]' }}"
 
       - name: Needs Pull Request
         if: ${{ steps.generator.outputs.deletions != '[]' && (github.event.inputs.override_version || needs.check_for_updates.outputs.id) }}
@@ -71,6 +58,7 @@ jobs:
         with:
           commit-message: "${{ (github.event.inputs.override_version || needs.check_for_updates.outputs.id) }} - deletions"
           branch: "deletions-${{ (github.event.inputs.override_version || needs.check_for_updates.outputs.id) }}"
+          title: "Manual check of ${{ (github.event.inputs.override_version || needs.check_for_updates.outputs.id) }} deletions and possible renames"
 
       - name: Needs Commit and Push
         if: ${{ steps.generator.outputs.deletions == '[]' && (github.event.inputs.override_version || needs.check_for_updates.outputs.id) }}
