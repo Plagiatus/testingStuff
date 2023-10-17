@@ -66,14 +66,15 @@ jobs:
         run: |
           echo "${{ steps.generator.outputs.additions }}"
           echo "${{ steps.generator.outputs.deletions }}"
+          echo "${{ steps.generator.outputs.deletions[0] }}"
           echo "${{ steps.generator.outputs.deletions[0] == null }}"
           echo "${{ steps.generator.outputs.deletions[0] != null }}"
 
       - name: Needs Pull Request
-        if: ${{ steps.generator.outputs.deletions[0] != null }}
+        if: steps.generator.outputs.deletions[0] != null
         run: |
           echo Make pull request
       - name: Needs Commit and Push
-        if: ${{ steps.generator.outputs.deletions[0] == null }}
+        if: steps.generator.outputs.deletions[0] == null
         run: |
           echo Normal Commit and Push
