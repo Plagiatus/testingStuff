@@ -74,10 +74,10 @@ jobs:
     needs: update
     steps:
       - name: Needs Pull Request
-        if: ${{ needs.update.outputs.deleted.length > 0 }}
+        if: ${{ needs.update.outputs.deleted != '[]' }}
         run: |
           echo Make pull request
       - name: Needs Commit and Push
-        if: ${{ needs.update.outputs.deleted.length <= 0 }}
+        if: ${{ needs.update.outputs.deleted.length == '[]' }}
         run: |
           echo Normal Commit and Push
