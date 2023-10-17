@@ -69,6 +69,8 @@ jobs:
           echo "${{ steps.generator.outputs.deletions[0] }}"
           echo "${{ steps.generator.outputs.deletions[0] == null }}"
           echo "${{ steps.generator.outputs.deletions[0] != null }}"
+          echo "${{ steps.generator.outputs.deletions == '[]' }}"
+          echo "${{ steps.generator.outputs.deletions != '[]' }}"
 
       - name: Needs Pull Request
         if: steps.generator.outputs.deletions[0] != null
