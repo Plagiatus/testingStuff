@@ -66,13 +66,17 @@ jobs:
         run: |
           echo "${{ steps.generator.outputs.additions }}"
           echo "${{ steps.generator.outputs.deletions }}"
-          echo "${{ steps.generator.outputs.additions.length }}"
-          echo "${{ steps.generator.outputs.deletions.length }}"
+          echo "${{ steps.generator.outputs.deletions[0] == null }}"
+          echo "${{ steps.generator.outputs.deletions[0] != null }}"
 
   processResult: # either make a commit & push or, if there are deletions, make a PR instead
     runs-on: ubuntu-latest
     needs: update
     steps:
+      - name: Outputs
+        run: |
+          echo ${{needs.update.outputs.deleted[0] != null}}
+          echo ${{needs.update.outputs.deleted[0] == null}}
       - name: Needs Pull Request
         if: ${{ needs.update.outputs.deleted[0] != null }}
         run: |
