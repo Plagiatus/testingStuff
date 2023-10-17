@@ -34,8 +34,8 @@ jobs:
     needs: check_for_updates
     if: ${{ needs.check_for_updates.outputs.id != '' || github.event.inputs.ignore_update_check == 'true' }}
     outputs:
-      added: ${{ steps.generator.outputs.additions }}
-      deleted: ${{ steps.generator.outputs.deletions }}
+      additions: ${{ steps.generator.outputs.additions }}
+      deletions: ${{ steps.generator.outputs.deletions }}
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v4
@@ -75,13 +75,14 @@ jobs:
     steps:
       - name: Outputs
         run: |
-          echo ${{needs.update.outputs.deleted[0] != null}}
-          echo ${{needs.update.outputs.deleted[0] == null}}
+          echo "${{ needs.update.outputs.deletions[0] }}"
+          echo ${{ needs.update.outputs.deletions[0] != null }}
+          echo ${{ needs.update.outputs.deletions[0] == null }}
       - name: Needs Pull Request
-        if: ${{ needs.update.outputs.deleted[0] != null }}
+        if: ${{ needs.update.outputs.deletions[0] != null }}
         run: |
           echo Make pull request
       - name: Needs Commit and Push
-        if: ${{ needs.update.outputs.deleted[0] == null }}
+        if: ${{ needs.update.outputs.deletions[0] == null }}
         run: |
           echo Normal Commit and Push
