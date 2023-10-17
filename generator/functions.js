@@ -18,7 +18,7 @@ function load(array, name, folderPath){
     for(let element of array) {
         arr += `"${element.name}", \\\n`;
         if(element.name == "") continue;
-        obj += `${element.name.substring(10)}: ${element.id}, \\\n`;
+        obj += `"${element.name}": ${element.id}, \\\n`;
     }
     arr += "]";
     obj += "}";
