@@ -48,6 +48,7 @@ jobs:
       - name: Run Generator
         id: generator
         run: |
+          cd generator
           npm i
           npm start ${{ github.event.inputs.override_version || needs.check_for_updates.outputs.id }}
           
